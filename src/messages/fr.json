@@ -54,6 +54,18 @@
     "passNotePractice": "Mode entraînement — sans limite de temps",
     "stoppedEarly": "Arrêt anticipé"
   },
+  "report": {
+    "button": "Signaler",
+    "title": "Signaler un problème",
+    "wrongAnswer": "Mauvaise réponse",
+    "unclearQuestion": "Question peu claire",
+    "translationError": "Erreur de traduction",
+    "other": "Autre",
+    "details": "Détails supplémentaires (optionnel)",
+    "placeholder": "Décrivez le problème...",
+    "submit": "Envoyer le signalement",
+    "cancel": "Annuler"
+  },
   "categories": {
     "rights_responsibilities": "Droits et responsabilités",
     "who_we_are": "Qui nous sommes",

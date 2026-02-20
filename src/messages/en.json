@@ -54,6 +54,18 @@
     "passNotePractice": "Practice mode — no time limit",
     "stoppedEarly": "Stopped early"
   },
+  "report": {
+    "button": "Report",
+    "title": "Report a problem",
+    "wrongAnswer": "Wrong answer",
+    "unclearQuestion": "Unclear question",
+    "translationError": "Translation error",
+    "other": "Other",
+    "details": "Additional details (optional)",
+    "placeholder": "Describe the problem...",
+    "submit": "Submit report",
+    "cancel": "Cancel"
+  },
   "categories": {
     "rights_responsibilities": "Rights & Responsibilities",
     "who_we_are": "Who We Are",

@@ -8,6 +8,7 @@ import { saveStats } from "@/lib/stats";
 import Timer from "./Timer";
 import ProgressBar from "./ProgressBar";
 import ResultsView from "./ResultsView";
+import ReportButton from "./ReportButton";
 
 type QuizStatus = "playing" | "finished";
 
@@ -202,24 +203,29 @@ export default function QuizContainer({
 
           {/* Feedback + next button */}
           {isAnswered && (
-            <div className="mt-6 flex items-center justify-between animate-fade-in">
-              <p
-                className={`text-sm font-medium ${
-                  state.selectedAnswer === currentData.answer
-                    ? "text-green-600 dark:text-green-400"
-                    : "text-red-500 dark:text-red-400"
-                }`}
-              >
-                {state.selectedAnswer === currentData.answer
-                  ? t("correct")
-                  : t("incorrect")}
-              </p>
-              <button
-                onClick={handleNext}
-                className="px-5 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg font-medium text-sm transition-colors"
-              >
-                {isLastQuestion ? t("finish") : t("next")}
-              </button>
+            <div className="mt-6 animate-fade-in">
+              <div className="flex items-center justify-between">
+                <p
+                  className={`text-sm font-medium ${
+                    state.selectedAnswer === currentData.answer
+                      ? "text-green-600 dark:text-green-400"
+                      : "text-red-500 dark:text-red-400"
+                  }`}
+                >
+                  {state.selectedAnswer === currentData.answer
+                    ? t("correct")
+                    : t("incorrect")}
+                </p>
+                <button
+                  onClick={handleNext}
+                  className="px-5 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg font-medium text-sm transition-colors"
+                >
+                  {isLastQuestion ? t("finish") : t("next")}
+                </button>
+              </div>
+              <div className="mt-3 flex justify-end">
+                <ReportButton question={currentQuestion} locale={locale} />
+              </div>
             </div>
           )}
         </div>
