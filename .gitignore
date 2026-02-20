@@ -38,11 +38,9 @@ Thumbs.db
 discover.txt
 decouvrir.txt
 
-# Official guide PDFs (large binary files, not tracked in git)
-public/documents/discover.pdf
-public/documents/decouvrir.pdf
-discover.pdf
-decouvrir.pdf
+# Root-level PDFs (working copies, not served by the app)
+/discover.pdf
+/decouvrir.pdf
 
 # TypeScript build info
 tsconfig.tsbuildinfo
