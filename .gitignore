@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+
+# Build
+dist/
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel / Netlify
+.vercel
+.netlify
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Extracted text (source files, not needed in repo)
+discover.txt
+decouvrir.txt
+
+# Official guide PDFs (large binary files, not tracked in git)
+public/documents/discover.pdf
+public/documents/decouvrir.pdf
+discover.pdf
+decouvrir.pdf
+
+# TypeScript build info
+tsconfig.tsbuildinfo
+
+# Claude Code local settings (permissions, not relevant for contributors)
+.claude/settings.local.json

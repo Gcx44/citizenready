@@ -1,0 +1,70 @@
+{
+  "app": {
+    "title": "CitizenReady",
+    "subtitle": "Préparez-vous au test de citoyenneté canadienne",
+    "description": "Entraînez-vous avec 400+ questions basées sur le guide officiel Découvrir le Canada. Les questions sont générées par IA et ne sont pas des questions officielles.",
+    "startQuiz": "Commencer le quiz",
+    "downloadGuide": "Guide d'étude officiel",
+    "studyGuideEn": "Télécharger (anglais)",
+    "studyGuideFr": "Télécharger (français)",
+    "language": "Language",
+    "practiceTitle": "Mode entraînement",
+    "practiceDescription": "Entraînez-vous sans chrono. Arrêtez à tout moment pour voir vos résultats et réviser vos erreurs.",
+    "startPractice": "Commencer l'entraînement"
+  },
+  "stats": {
+    "title": "Vos statistiques",
+    "quizzesTaken": "Quiz complétés",
+    "averageScore": "Score moyen",
+    "bestScore": "Meilleur score",
+    "noStats": "Aucun quiz complété. Commencez votre premier quiz !"
+  },
+  "quiz": {
+    "question": "Question",
+    "of": "sur",
+    "timeRemaining": "Temps restant",
+    "next": "Question suivante",
+    "finish": "Voir les résultats",
+    "timeUp": "Temps écoulé !",
+    "correct": "Correct !",
+    "incorrect": "Incorrect",
+    "yourAnswer": "Votre réponse",
+    "loading": "Préparation de votre quiz...",
+    "stop": "Arrêter et voir les résultats"
+  },
+  "results": {
+    "title": "Résultats du quiz",
+    "score": "Votre score",
+    "outOf": "sur",
+    "passed": "Réussi !",
+    "failed": "Non réussi",
+    "passNote": "75% (15/20) est la note de passage au vrai test.",
+    "timeExpired": "Temps écoulé",
+    "reviewTitle": "Révision des questions",
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "skipped": "Sans réponse",
+    "correctAnswer": "Bonne réponse",
+    "source": "Source",
+    "page": "p.",
+    "viewPdf": "Voir dans le guide",
+    "playAgain": "Réessayer",
+    "goHome": "Retour à l'accueil",
+    "shareScore": "Partager mon score",
+    "passNotePractice": "Mode entraînement — sans limite de temps",
+    "stoppedEarly": "Arrêt anticipé"
+  },
+  "categories": {
+    "rights_responsibilities": "Droits et responsabilités",
+    "who_we_are": "Qui nous sommes",
+    "history_aboriginal": "Histoire autochtone",
+    "history_european": "Histoire européenne",
+    "modern_canada": "Canada moderne",
+    "government": "Gouvernement",
+    "federal_elections": "Élections fédérales",
+    "justice_system": "Système de justice",
+    "symbols": "Symboles canadiens",
+    "economy": "Économie",
+    "regions": "Régions du Canada"
+  }
+}

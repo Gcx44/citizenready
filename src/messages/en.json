@@ -1,0 +1,70 @@
+{
+  "app": {
+    "title": "CitizenReady",
+    "subtitle": "Practice for the Canadian Citizenship Test",
+    "description": "Train with 400+ questions based on the official Discover Canada guide. Questions are AI-generated and are not official test questions.",
+    "startQuiz": "Start Quiz",
+    "downloadGuide": "Official Study Guide",
+    "studyGuideEn": "Download (English)",
+    "studyGuideFr": "Download (French)",
+    "language": "Langue",
+    "practiceTitle": "Practice Mode",
+    "practiceDescription": "Train without a timer. Stop at any time to see your results and review your mistakes.",
+    "startPractice": "Start Practice"
+  },
+  "stats": {
+    "title": "Your Statistics",
+    "quizzesTaken": "Quizzes taken",
+    "averageScore": "Average score",
+    "bestScore": "Best score",
+    "noStats": "No quizzes completed yet. Start your first quiz!"
+  },
+  "quiz": {
+    "question": "Question",
+    "of": "of",
+    "timeRemaining": "Time remaining",
+    "next": "Next Question",
+    "finish": "See Results",
+    "timeUp": "Time's up!",
+    "correct": "Correct!",
+    "incorrect": "Incorrect",
+    "yourAnswer": "Your answer",
+    "loading": "Preparing your quiz...",
+    "stop": "Stop & See Results"
+  },
+  "results": {
+    "title": "Quiz Results",
+    "score": "Your Score",
+    "outOf": "out of",
+    "passed": "Passed!",
+    "failed": "Not passed",
+    "passNote": "75% (15/20) is the passing score for the real test.",
+    "timeExpired": "Time expired",
+    "reviewTitle": "Question Review",
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "skipped": "Not answered",
+    "correctAnswer": "Correct answer",
+    "source": "Source",
+    "page": "p.",
+    "viewPdf": "View in guide",
+    "playAgain": "Retry",
+    "goHome": "Back to Home",
+    "shareScore": "Share your score",
+    "passNotePractice": "Practice mode — no time limit",
+    "stoppedEarly": "Stopped early"
+  },
+  "categories": {
+    "rights_responsibilities": "Rights & Responsibilities",
+    "who_we_are": "Who We Are",
+    "history_aboriginal": "Aboriginal History",
+    "history_european": "European History",
+    "modern_canada": "Modern Canada",
+    "government": "Government",
+    "federal_elections": "Federal Elections",
+    "justice_system": "Justice System",
+    "symbols": "Canadian Symbols",
+    "economy": "Economy",
+    "regions": "Canada's Regions"
+  }
+}
