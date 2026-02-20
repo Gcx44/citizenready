@@ -24,7 +24,7 @@ export default function PracticeSelector() {
       <p className="text-xs text-gray-500 dark:text-gray-400 mb-4">
         {t("practiceDescription")}
       </p>
-      <div className="flex gap-3 items-center">
+      <div className="flex flex-col sm:flex-row gap-3">
         <select
           value={size}
           onChange={(e) => setSize(Number(e.target.value))}
@@ -38,7 +38,7 @@ export default function PracticeSelector() {
         </select>
         <button
           onClick={handleStart}
-          className="px-5 py-2.5 bg-gray-800 dark:bg-gray-200 hover:bg-gray-700 dark:hover:bg-gray-100 text-white dark:text-gray-900 rounded-lg font-medium text-sm transition-colors whitespace-nowrap"
+          className="w-full sm:w-auto px-5 py-2.5 bg-gray-800 dark:bg-gray-200 hover:bg-gray-700 dark:hover:bg-gray-100 text-white dark:text-gray-900 rounded-lg font-medium text-sm transition-colors text-center"
         >
           {t("startPractice")} →
         </button>
