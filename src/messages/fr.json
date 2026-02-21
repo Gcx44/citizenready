@@ -64,7 +64,11 @@
     "details": "Détails supplémentaires (optionnel)",
     "placeholder": "Décrivez le problème...",
     "submit": "Envoyer le signalement",
-    "cancel": "Annuler"
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "successTitle": "Signalement envoyé !",
+    "successMessage": "Merci, nous allons vérifier cette question.",
+    "errorMessage": "Échec de l'envoi. Veuillez réessayer."
   },
   "categories": {
     "rights_responsibilities": "Droits et responsabilités",

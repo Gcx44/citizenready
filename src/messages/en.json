@@ -64,7 +64,11 @@
     "details": "Additional details (optional)",
     "placeholder": "Describe the problem...",
     "submit": "Submit report",
-    "cancel": "Cancel"
+    "cancel": "Cancel",
+    "close": "Close",
+    "successTitle": "Report sent!",
+    "successMessage": "Thank you, we'll review this question.",
+    "errorMessage": "Failed to send. Please try again."
   },
   "categories": {
     "rights_responsibilities": "Rights & Responsibilities",
