@@ -24,7 +24,16 @@ export async function POST(request: NextRequest) {
   });
 
   if (!response.ok) {
-    return NextResponse.json({ error: "GitHub API error" }, { status: 502 });
+    const errorBody = await response.json().catch(() => ({}));
+    console.error(
+      "GitHub API error",
+      response.status,
+      JSON.stringify(errorBody),
+    );
+    return NextResponse.json(
+      { error: "GitHub API error", status: response.status, detail: errorBody },
+      { status: 502 },
+    );
   }
 
   const issue = await response.json();
