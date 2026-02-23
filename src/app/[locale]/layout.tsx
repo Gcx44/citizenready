@@ -8,8 +8,8 @@ import "../globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "CitizenReady — Canadian Citizenship Practice",
-    template: "%s | CitizenReady",
+    default: "LeafReady — Canadian Citizenship Practice",
+    template: "%s | LeafReady",
   },
   description:
     "Free practice quiz for the Canadian citizenship test, based on the official Discover Canada guide.",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     icon: "/favicon.svg",
   },
   openGraph: {
-    title: "CitizenReady — Canadian Citizenship Practice",
+    title: "LeafReady — Canadian Citizenship Practice",
     description:
       "Free practice quiz for the Canadian citizenship test, based on the official Discover Canada guide.",
     locale: "en_CA",

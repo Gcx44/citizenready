@@ -14,7 +14,7 @@ export default function HomePage() {
       <header className="bg-white dark:bg-gray-800 border-b border-gray-100 dark:border-gray-700 px-4 py-3">
         <div className="max-w-2xl mx-auto flex items-center justify-between">
           <span className="font-bold text-red-700 dark:text-red-400 text-lg">
-            CitizenReady
+            LeafReady
           </span>
           <LanguageSwitcher />
         </div>

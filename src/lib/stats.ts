@@ -1,4 +1,4 @@
-const STATS_KEY = "citizenready_stats";
+const STATS_KEY = "leafready_stats";
 
 export interface QuizStats {
   totalQuizzes: number;

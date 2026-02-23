@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="public/favicon.svg" width="80" alt="CitizenReady maple leaf logo" />
+<img src="public/favicon.svg" width="80" alt="LeafReady maple leaf logo" />
 
-# CitizenReady
+# LeafReady
 
 **Free bilingual practice quiz for the Canadian citizenship test**
 
@@ -37,7 +37,7 @@ Based exclusively on the official [**Discover Canada / Découvrir le Canada**](h
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/citizenready.git
+git clone https://github.com/Gcx44/citizenready.git
 cd citizenready
 npm install
 ```

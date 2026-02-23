@@ -1,4 +1,4 @@
-# CitizenReady — CLAUDE.md projet
+# LeafReady — CLAUDE.md projet
 
 Quiz d'entraînement au test de citoyenneté canadienne. Bilingue EN/FR.
 Basé exclusivement sur le guide officiel "Discover Canada" / "Découvrir le Canada".
@@ -11,7 +11,7 @@ Basé exclusivement sur le guide officiel "Discover Canada" / "Découvrir le Can
 | Styling     | Tailwind CSS v3 (`darkMode: "class"`)     |
 | i18n        | next-intl (middleware + App Router)       |
 | Data        | JSON statique (`src/data/questions.json`) |
-| Stats       | localStorage (`citizenready_stats`)        |
+| Stats       | localStorage (`leafready_stats`)          |
 | Hébergement | Netlify (plugin `@netlify/plugin-nextjs`) |
 
 ## Structure
