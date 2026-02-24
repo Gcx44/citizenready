@@ -115,17 +115,36 @@ export default function HomePage() {
         </div>
       </main>
 
-      <footer className="text-center py-4 text-xs text-gray-400 dark:text-gray-500">
-        Open source · Based on the official{" "}
-        <a
-          href="https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada.html"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline hover:text-gray-600 dark:hover:text-gray-300"
-        >
-          Discover Canada
-        </a>{" "}
-        guide · Not affiliated with the Government of Canada
+      <footer className="text-center py-4 text-xs text-gray-400 dark:text-gray-500 space-y-1">
+        <div>
+          <a
+            href="https://github.com/Gcx44/leafready"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-gray-600 dark:hover:text-gray-300"
+          >
+            GitHub
+          </a>
+          {" · "}
+          <Link
+            href="support"
+            className="underline hover:text-gray-600 dark:hover:text-gray-300"
+          >
+            ☕ Support
+          </Link>
+        </div>
+        <div>
+          Open source · Based on the official{" "}
+          <a
+            href="https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-gray-600 dark:hover:text-gray-300"
+          >
+            Discover Canada
+          </a>{" "}
+          guide · Not affiliated with the Government of Canada
+        </div>
       </footer>
     </div>
   );

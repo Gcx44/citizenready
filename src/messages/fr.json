@@ -54,6 +54,23 @@
     "passNotePractice": "Mode entraînement — sans limite de temps",
     "stoppedEarly": "Arrêt anticipé"
   },
+  "support": {
+    "title": "Soutenir LeafReady",
+    "subtitle": "Cette app est gratuite et le restera. Si elle vous a aidé, voici comment contribuer.",
+    "financialTitle": "Offrir un café",
+    "kofi": "Soutenir sur Ko-fi",
+    "paypal": "Faire un don via PayPal",
+    "freeTitle": "Contribuer gratuitement",
+    "starTitle": "Star sur GitHub",
+    "starDescription": "Donnez une ⭐ au projet sur GitHub — ça aide d'autres personnes à le découvrir.",
+    "starButton": "Star le repo",
+    "shareTitle": "Partager avec quelqu'un",
+    "shareDescription": "Vous connaissez quelqu'un qui prépare son test de citoyenneté ? Envoyez-lui le lien.",
+    "shareButton": "Partager LeafReady",
+    "shareCopied": "Lien copié !",
+    "shareText": "J'ai trouvé cette app gratuite pour préparer le test de citoyenneté canadienne :",
+    "thankYou": "Merci pour votre soutien ♥"
+  },
   "report": {
     "button": "Signaler",
     "title": "Signaler un problème",

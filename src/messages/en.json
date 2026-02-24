@@ -54,6 +54,23 @@
     "passNotePractice": "Practice mode — no time limit",
     "stoppedEarly": "Stopped early"
   },
+  "support": {
+    "title": "Support LeafReady",
+    "subtitle": "This app is free and always will be. If it helped you, here's how you can give back.",
+    "financialTitle": "Buy me a coffee",
+    "kofi": "Support on Ko-fi",
+    "paypal": "Donate via PayPal",
+    "freeTitle": "Free ways to help",
+    "starTitle": "Star on GitHub",
+    "starDescription": "Give the project a ⭐ on GitHub — it helps others discover it.",
+    "starButton": "Star the repo",
+    "shareTitle": "Share with someone",
+    "shareDescription": "Know someone preparing for the citizenship test? Send them the link.",
+    "shareButton": "Share LeafReady",
+    "shareCopied": "Link copied!",
+    "shareText": "I found this free app to practice for the Canadian citizenship test:",
+    "thankYou": "Thank you for your support ♥"
+  },
   "report": {
     "button": "Report",
     "title": "Report a problem",
