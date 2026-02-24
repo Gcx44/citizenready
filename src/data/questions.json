@@ -7500,6 +7500,456 @@
     }
   },
   {
+    "id": 251,
+    "category": "history_european",
+    "en": {
+      "question": "What was the name of the first European settlement north of Florida, established in 1604?",
+      "choices": [
+        "Quebec City",
+        "Port-Royal, in Acadia",
+        "Montreal",
+        "Fort Garry"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Quel fut le nom du premier établissement européen au nord de la Floride, fondé en 1604?",
+      "choices": [
+        "Québec City",
+        "Port-Royal, en Acadie",
+        "Montréal",
+        "Fort Garry"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 14,
+      "page_fr": 14,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 252,
+    "category": "history_european",
+    "en": {
+      "question": "Who were the Loyalists who fled to Canada after the American Revolution?",
+      "choices": [
+        "French settlers who refused to fight for Britain",
+        "People loyal to the Crown who fled the oppression of the American Revolution",
+        "British soldiers who deserted during the War of Independence",
+        "Aboriginal peoples who sided with the British"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Qui étaient les Loyalistes qui ont fui au Canada après la Révolution américaine?",
+      "choices": [
+        "Des colons français qui refusaient de combattre pour la Grande-Bretagne",
+        "Des personnes fidèles à la Couronne qui ont fui l'oppression de la Révolution américaine",
+        "Des soldats britanniques déserteurs pendant la guerre d'Indépendance",
+        "Des peuples autochtones alliés aux Britanniques"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 15,
+      "page_fr": 15,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 253,
+    "category": "history_european",
+    "en": {
+      "question": "What did the Quebec Act of 1774 allow for French Roman Catholics?",
+      "choices": [
+        "The right to form their own government",
+        "Religious freedom and the right to hold public office",
+        "The right to speak French in Parliament",
+        "The right to own land in English territories"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Qu'est-ce que l'Acte de Québec de 1774 permettait aux catholiques romains français?",
+      "choices": [
+        "Le droit de former leur propre gouvernement",
+        "La liberté religieuse et le droit d'occuper des fonctions publiques",
+        "Le droit de parler français au Parlement",
+        "Le droit de posséder des terres dans les territoires anglais"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 15,
+      "page_fr": 15,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 254,
+    "category": "history_european",
+    "en": {
+      "question": "In what year did the United States launch an invasion of Canada in the War of 1812?",
+      "choices": [
+        "1810",
+        "1812",
+        "1814",
+        "1815"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "En quelle année les États-Unis ont-ils envahi le Canada lors de la Guerre de 1812?",
+      "choices": [
+        "1810",
+        "1812",
+        "1814",
+        "1815"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 17,
+      "page_fr": 17,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 255,
+    "category": "history_european",
+    "en": {
+      "question": "What was the first province in the British Empire to move toward abolishing slavery?",
+      "choices": [
+        "Nova Scotia",
+        "Quebec",
+        "Upper Canada",
+        "New Brunswick"
+      ],
+      "answer": 2
+    },
+    "fr": {
+      "question": "Quelle fut la première province de l'Empire britannique à amorcer l'abolition de l'esclavage?",
+      "choices": [
+        "La Nouvelle-Écosse",
+        "Le Québec",
+        "Le Haut-Canada",
+        "Le Nouveau-Brunswick"
+      ],
+      "answer": 2
+    },
+    "source": {
+      "page_en": 16,
+      "page_fr": 16,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 256,
+    "category": "history_european",
+    "en": {
+      "question": "Who was Laura Secord and what is she remembered for?",
+      "choices": [
+        "A suffragette who founded the women's right to vote movement",
+        "A pioneer who warned British troops of a planned American attack in 1813",
+        "A nurse who served in the First World War",
+        "A politician who was the first woman elected to Parliament"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Qui était Laura Secord et pourquoi est-elle commémorée?",
+      "choices": [
+        "Une suffragette qui a fondé le mouvement pour le droit de vote des femmes",
+        "Une pionnière qui a alerté les troupes britanniques d'une attaque américaine planifiée en 1813",
+        "Une infirmière qui a servi pendant la Première Guerre mondiale",
+        "Une politicienne qui fut la première femme élue au Parlement"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 17,
+      "page_fr": 17,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 257,
+    "category": "history_european",
+    "en": {
+      "question": "The first representative assembly in Canada was elected in which city and year?",
+      "choices": [
+        "Quebec City in 1763",
+        "Halifax, Nova Scotia, in 1758",
+        "York (Toronto) in 1791",
+        "Montreal in 1774"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "La première assemblée représentative au Canada fut élue dans quelle ville et en quelle année?",
+      "choices": [
+        "Québec City en 1763",
+        "Halifax, Nouvelle-Écosse, en 1758",
+        "York (Toronto) en 1791",
+        "Montréal en 1774"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 17,
+      "page_fr": 17,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 258,
+    "category": "history_european",
+    "en": {
+      "question": "What is responsible government in Canada?",
+      "choices": [
+        "A system where every citizen votes directly on laws",
+        "A system where the government must resign if it loses a confidence vote in the assembly",
+        "A system where the Senate approves all government decisions",
+        "A system where the Governor General governs independently"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Qu'est-ce que le gouvernement responsable au Canada?",
+      "choices": [
+        "Un système où chaque citoyen vote directement sur les lois",
+        "Un système où le gouvernement doit démissionner s'il perd un vote de confiance à l'assemblée",
+        "Un système où le Sénat approuve toutes les décisions gouvernementales",
+        "Un système où le gouverneur général gouverne de façon indépendante"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 18,
+      "page_fr": 18,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 259,
+    "category": "history_european",
+    "en": {
+      "question": "What was the name given to the Canadian Pacific Railway's last spike ceremony in 1885?",
+      "choices": [
+        "A symbol of Canadian independence from Britain",
+        "A powerful symbol of national unity",
+        "The beginning of mass immigration to the West",
+        "The end of the Métis Resistance"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Que représentait le dernier crampon du chemin de fer du Canadien Pacifique enfoncé en 1885?",
+      "choices": [
+        "Un symbole d'indépendance canadienne vis-à-vis de la Grande-Bretagne",
+        "Un puissant symbole d'unité nationale",
+        "Le début de l'immigration de masse vers l'Ouest",
+        "La fin de la Résistance des Métis"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 20,
+      "page_fr": 20,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 260,
+    "category": "history_european",
+    "en": {
+      "question": "Who was Sir Wilfrid Laurier?",
+      "choices": [
+        "The first English-Canadian prime minister",
+        "The first French-Canadian prime minister since Confederation, whose portrait is on the $5 bill",
+        "The founder of the Royal Canadian Mounted Police",
+        "The general who led Canadian troops at Vimy Ridge"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Qui était Sir Wilfrid Laurier?",
+      "choices": [
+        "Le premier premier ministre canadien-anglais",
+        "Le premier premier ministre canadien-français depuis la Confédération, dont le portrait figure sur le billet de 5 $",
+        "Le fondateur de la Gendarmerie royale du Canada",
+        "Le général qui a commandé les troupes canadiennes à Vimy"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 20,
+      "page_fr": 20,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 261,
+    "category": "history_european",
+    "en": {
+      "question": "What was the women's suffrage movement in Canada?",
+      "choices": [
+        "The effort by women to achieve the right to vote",
+        "The movement to have women serve in the military",
+        "The campaign for equal pay for women",
+        "The effort by women to enter the legal profession"
+      ],
+      "answer": 0
+    },
+    "fr": {
+      "question": "Qu'était le mouvement pour le suffrage féminin au Canada?",
+      "choices": [
+        "Les efforts des femmes pour obtenir le droit de vote",
+        "Le mouvement pour permettre aux femmes de servir dans l'armée",
+        "La campagne pour l'équité salariale entre femmes et hommes",
+        "Les efforts des femmes pour accéder à la profession juridique"
+      ],
+      "answer": 0
+    },
+    "source": {
+      "page_en": 20,
+      "page_fr": 20,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 262,
+    "category": "history_european",
+    "en": {
+      "question": "Which province was the first to grant voting rights to women in 1916?",
+      "choices": [
+        "Ontario",
+        "British Columbia",
+        "Manitoba",
+        "Quebec"
+      ],
+      "answer": 2
+    },
+    "fr": {
+      "question": "Quelle province fut la première à accorder le droit de vote aux femmes en 1916?",
+      "choices": [
+        "L'Ontario",
+        "La Colombie-Britannique",
+        "Le Manitoba",
+        "Le Québec"
+      ],
+      "answer": 2
+    },
+    "source": {
+      "page_en": 20,
+      "page_fr": 20,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 263,
+    "category": "history_european",
+    "en": {
+      "question": "What happened at the Battle of Vimy Ridge in April 1917?",
+      "choices": [
+        "The Canadian Navy won its greatest naval battle",
+        "The Canadian Corps captured Vimy Ridge, securing Canadians' reputation as the 'shock troops of the British Empire'",
+        "Canada declared independence from Britain",
+        "Canadian troops liberated the Netherlands"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Que s'est-il passé lors de la bataille de la crête de Vimy en avril 1917?",
+      "choices": [
+        "La Marine canadienne remporta sa plus grande bataille navale",
+        "Le Corps canadien s'empara de la crête de Vimy, forgeant la réputation des Canadiens comme « troupes de choc de l'Empire britannique »",
+        "Le Canada déclara son indépendance vis-à-vis de la Grande-Bretagne",
+        "Les troupes canadiennes libérèrent les Pays-Bas"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 21,
+      "page_fr": 21,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 264,
+    "category": "history_european",
+    "en": {
+      "question": "What role did Canada play on D-Day, June 6, 1944?",
+      "choices": [
+        "Canadian ships blockaded German ports",
+        "15,000 Canadian troops stormed and captured Juno Beach from the German Army",
+        "Canadian bombers destroyed Berlin",
+        "The Canadian Army liberated Paris"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Quel rôle le Canada a-t-il joué lors du Jour J, le 6 juin 1944?",
+      "choices": [
+        "Les navires canadiens ont bloqué les ports allemands",
+        "15 000 soldats canadiens ont pris d'assaut et capturé la plage Juno face à l'armée allemande",
+        "Les bombardiers canadiens ont détruit Berlin",
+        "L'armée canadienne a libéré Paris"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 22,
+      "page_fr": 22,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 265,
+    "category": "modern_canada",
+    "en": {
+      "question": "What is Remembrance Day and when is it observed in Canada?",
+      "choices": [
+        "A day to remember Confederation, observed on July 1",
+        "A day to honour veterans and fallen soldiers, observed on November 11",
+        "A day to remember the victims of residential schools, observed on June 21",
+        "A day to commemorate the signing of the Charter, observed on April 17"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Qu'est-ce que le Jour du Souvenir et quand est-il observé au Canada?",
+      "choices": [
+        "Un jour pour commémorer la Confédération, observé le 1er juillet",
+        "Un jour pour honorer les anciens combattants et les soldats tombés au combat, observé le 11 novembre",
+        "Un jour pour commémorer les victimes des pensionnats, observé le 21 juin",
+        "Un jour pour commémorer la signature de la Charte, observé le 17 avril"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 23,
+      "page_fr": 23,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
     "id": 266,
     "category": "justice_system",
     "en": {
@@ -11547,6 +11997,1506 @@
       "page_fr": 50,
       "section_en": "Canada's Regions",
       "section_fr": "Les régions du Canada"
+    }
+  },
+  {
+    "id": 401,
+    "category": "history_aboriginal",
+    "en": {
+      "question": "Where are the ancestors of Aboriginal peoples believed to have migrated from?",
+      "choices": [
+        "Europe",
+        "Africa",
+        "Asia",
+        "South America"
+      ],
+      "answer": 2
+    },
+    "fr": {
+      "question": "D'où croit-on que les ancêtres des peuples autochtones ont migré?",
+      "choices": [
+        "D'Europe",
+        "D'Afrique",
+        "D'Asie",
+        "D'Amérique du Sud"
+      ],
+      "answer": 2
+    },
+    "source": {
+      "page_en": 11,
+      "page_fr": 11,
+      "section_en": "Who We Are",
+      "section_fr": "Qui nous sommes"
+    }
+  },
+  {
+    "id": 402,
+    "category": "history_aboriginal",
+    "en": {
+      "question": "What happened in 2008 regarding residential schools for Aboriginal children?",
+      "choices": [
+        "The last residential school was closed",
+        "Ottawa formally apologized to former students",
+        "A commission was established to investigate abuses",
+        "Compensation was paid to the schools' operators"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Que s'est-il passé en 2008 concernant les pensionnats pour enfants autochtones?",
+      "choices": [
+        "Le dernier pensionnat a été fermé",
+        "Ottawa a présenté ses excuses officielles aux anciens élèves",
+        "Une commission a été créée pour enquêter sur les abus",
+        "Des indemnisations ont été versées aux exploitants des pensionnats"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 11,
+      "page_fr": 11,
+      "section_en": "Who We Are",
+      "section_fr": "Qui nous sommes"
+    }
+  },
+  {
+    "id": 403,
+    "category": "history_aboriginal",
+    "en": {
+      "question": "Through which royal document were Aboriginal territorial rights first guaranteed?",
+      "choices": [
+        "The British North America Act of 1867",
+        "The Quebec Act of 1774",
+        "The Royal Proclamation of 1763 by King George III",
+        "The Constitution Act of 1982"
+      ],
+      "answer": 2
+    },
+    "fr": {
+      "question": "Par quel document royal les droits territoriaux des Autochtones ont-ils été garantis pour la première fois?",
+      "choices": [
+        "L'Acte de l'Amérique du Nord britannique de 1867",
+        "L'Acte de Québec de 1774",
+        "La Proclamation royale de 1763 du roi George III",
+        "La Loi constitutionnelle de 1982"
+      ],
+      "answer": 2
+    },
+    "source": {
+      "page_en": 11,
+      "page_fr": 11,
+      "section_en": "Who We Are",
+      "section_fr": "Qui nous sommes"
+    }
+  },
+  {
+    "id": 404,
+    "category": "who_we_are",
+    "en": {
+      "question": "What does the term 'Métis' refer to in Canada?",
+      "choices": [
+        "All Aboriginal people who are not Inuit",
+        "A distinct people of mixed Aboriginal and European ancestry who speak the Michif dialect",
+        "A group of Aboriginal people who live in the Arctic",
+        "All Aboriginal people who live on reserve land"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Qu'est-ce que le terme « Métis » désigne au Canada?",
+      "choices": [
+        "Tous les Autochtones qui ne sont pas des Inuits",
+        "Un peuple distinct d'ascendance autochtone et européenne mixte qui parle le dialecte michif",
+        "Un groupe d'Autochtones qui vivent dans l'Arctique",
+        "Tous les Autochtones qui vivent dans des réserves"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 11,
+      "page_fr": 11,
+      "section_en": "Who We Are",
+      "section_fr": "Qui nous sommes"
+    }
+  },
+  {
+    "id": 405,
+    "category": "who_we_are",
+    "en": {
+      "question": "What is the only officially bilingual province in Canada?",
+      "choices": [
+        "Ontario",
+        "Quebec",
+        "New Brunswick",
+        "Manitoba"
+      ],
+      "answer": 2
+    },
+    "fr": {
+      "question": "Quelle est la seule province officiellement bilingue au Canada?",
+      "choices": [
+        "L'Ontario",
+        "Le Québec",
+        "Le Nouveau-Brunswick",
+        "Le Manitoba"
+      ],
+      "answer": 2
+    },
+    "source": {
+      "page_en": 11,
+      "page_fr": 11,
+      "section_en": "Who We Are",
+      "section_fr": "Qui nous sommes"
+    }
+  },
+  {
+    "id": 406,
+    "category": "who_we_are",
+    "en": {
+      "question": "What was the 'Great Upheaval' in Acadian history?",
+      "choices": [
+        "The French and Iroquois wars of the 1600s",
+        "The deportation of more than two-thirds of the Acadians between 1755 and 1763",
+        "The British conquest of New France in 1759",
+        "The Acadian migration from France to Canada in 1604"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Qu'était le « Grand Dérangement » dans l'histoire acadienne?",
+      "choices": [
+        "Les guerres franco-iroquoises des années 1600",
+        "La déportation de plus des deux tiers des Acadiens entre 1755 et 1763",
+        "La conquête britannique de la Nouvelle-France en 1759",
+        "La migration acadienne de France vers le Canada en 1604"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 11,
+      "page_fr": 11,
+      "section_en": "Who We Are",
+      "section_fr": "Qui nous sommes"
+    }
+  },
+  {
+    "id": 407,
+    "category": "who_we_are",
+    "en": {
+      "question": "In what year did the House of Commons recognize that the Quebecois form a nation within a united Canada?",
+      "choices": [
+        "1980",
+        "1995",
+        "2006",
+        "2010"
+      ],
+      "answer": 2
+    },
+    "fr": {
+      "question": "En quelle année la Chambre des communes a-t-elle reconnu que les Québécois forment une nation au sein d'un Canada uni?",
+      "choices": [
+        "1980",
+        "1995",
+        "2006",
+        "2010"
+      ],
+      "answer": 2
+    },
+    "source": {
+      "page_en": 11,
+      "page_fr": 11,
+      "section_en": "Who We Are",
+      "section_fr": "Qui nous sommes"
+    }
+  },
+  {
+    "id": 408,
+    "category": "government",
+    "en": {
+      "question": "How many parts does the Parliament of Canada have?",
+      "choices": [
+        "Two: the Senate and the House of Commons",
+        "Three: the Sovereign, the Senate and the House of Commons",
+        "Four: the Crown, the Senate, the House of Commons and the Cabinet",
+        "Two: the Governor General and the House of Commons"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Combien de parties le Parlement du Canada compte-t-il?",
+      "choices": [
+        "Deux : le Sénat et la Chambre des communes",
+        "Trois : le Souverain, le Sénat et la Chambre des communes",
+        "Quatre : la Couronne, le Sénat, la Chambre des communes et le Cabinet",
+        "Deux : le gouverneur général et la Chambre des communes"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 28,
+      "page_fr": 28,
+      "section_en": "How Canadians Govern Themselves",
+      "section_fr": "Comment les Canadiens se gouvernent"
+    }
+  },
+  {
+    "id": 409,
+    "category": "government",
+    "en": {
+      "question": "What is the role of the Governor General in Canada?",
+      "choices": [
+        "To govern the country as Head of Government",
+        "To represent the Sovereign in Canada, appointed on the advice of the Prime Minister",
+        "To preside over the Senate and pass laws",
+        "To appoint all Cabinet ministers independently"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Quel est le rôle du gouverneur général au Canada?",
+      "choices": [
+        "Gouverner le pays en tant que chef du gouvernement",
+        "Représenter le Souverain au Canada, nommé sur avis du premier ministre",
+        "Présider le Sénat et adopter des lois",
+        "Nommer tous les ministres du Cabinet de façon indépendante"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 28,
+      "page_fr": 28,
+      "section_en": "How Canadians Govern Themselves",
+      "section_fr": "Comment les Canadiens se gouvernent"
+    }
+  },
+  {
+    "id": 410,
+    "category": "government",
+    "en": {
+      "question": "What responsibilities do the provinces have in Canada's federal system?",
+      "choices": [
+        "Defence, foreign policy and currency",
+        "Municipal government, education, health, natural resources, property and civil rights, and highways",
+        "Criminal law and citizenship",
+        "National trade and immigration only"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "De quelles responsabilités les provinces sont-elles chargées dans le système fédéral canadien?",
+      "choices": [
+        "La défense, la politique étrangère et la monnaie",
+        "Le gouvernement municipal, l'éducation, la santé, les ressources naturelles, la propriété et les droits civils, et les autoroutes",
+        "Le droit criminel et la citoyenneté",
+        "Le commerce national et l'immigration seulement"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 28,
+      "page_fr": 28,
+      "section_en": "How Canadians Govern Themselves",
+      "section_fr": "Comment les Canadiens se gouvernent"
+    }
+  },
+  {
+    "id": 411,
+    "category": "government",
+    "en": {
+      "question": "What are the three branches of the Canadian government that work together?",
+      "choices": [
+        "Federal, provincial and municipal",
+        "Executive, Legislative and Judicial",
+        "Prime Minister, Senate and Governor General",
+        "Crown, Cabinet and Parliament"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Quels sont les trois pouvoirs du gouvernement canadien qui travaillent ensemble?",
+      "choices": [
+        "Fédéral, provincial et municipal",
+        "Exécutif, législatif et judiciaire",
+        "Premier ministre, Sénat et gouverneur général",
+        "Couronne, Cabinet et Parlement"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 28,
+      "page_fr": 28,
+      "section_en": "How Canadians Govern Themselves",
+      "section_fr": "Comment les Canadiens se gouvernent"
+    }
+  },
+  {
+    "id": 412,
+    "category": "government",
+    "en": {
+      "question": "Until what age do Canadian Senators serve after being appointed?",
+      "choices": [
+        "Age 65",
+        "Age 70",
+        "Age 75",
+        "Age 80"
+      ],
+      "answer": 2
+    },
+    "fr": {
+      "question": "Jusqu'à quel âge les sénateurs canadiens servent-ils après leur nomination?",
+      "choices": [
+        "65 ans",
+        "70 ans",
+        "75 ans",
+        "80 ans"
+      ],
+      "answer": 2
+    },
+    "source": {
+      "page_en": 28,
+      "page_fr": 28,
+      "section_en": "How Canadians Govern Themselves",
+      "section_fr": "Comment les Canadiens se gouvernent"
+    }
+  },
+  {
+    "id": 413,
+    "category": "government",
+    "en": {
+      "question": "What does 'royal assent' mean in Canada's legislative process?",
+      "choices": [
+        "The Prime Minister's signature on a new law",
+        "The final approval that allows a bill to become law, granted by the Governor General on behalf of the Sovereign",
+        "The Senate's approval of a bill after third reading",
+        "The Supreme Court's confirmation that a law is constitutional"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Que signifie la « sanction royale » dans le processus législatif canadien?",
+      "choices": [
+        "La signature du premier ministre sur une nouvelle loi",
+        "L'approbation finale permettant à un projet de loi de devenir loi, accordée par le gouverneur général au nom du Souverain",
+        "L'approbation du Sénat après la troisième lecture",
+        "La confirmation par la Cour suprême qu'une loi est constitutionnelle"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 28,
+      "page_fr": 28,
+      "section_en": "How Canadians Govern Themselves",
+      "section_fr": "Comment les Canadiens se gouvernent"
+    }
+  },
+  {
+    "id": 414,
+    "category": "government",
+    "en": {
+      "question": "What is the role of the Lieutenant Governor in each Canadian province?",
+      "choices": [
+        "To act as Premier when the Premier is unavailable",
+        "To represent the Sovereign in each of the ten provinces",
+        "To oversee provincial courts and the justice system",
+        "To chair sessions of the provincial legislature"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Quel est le rôle du lieutenant-gouverneur dans chaque province canadienne?",
+      "choices": [
+        "Agir comme premier ministre en l'absence du premier ministre",
+        "Représenter le Souverain dans chacune des dix provinces",
+        "Superviser les tribunaux provinciaux et le système judiciaire",
+        "Présider les séances de l'assemblée législative provinciale"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 28,
+      "page_fr": 28,
+      "section_en": "How Canadians Govern Themselves",
+      "section_fr": "Comment les Canadiens se gouvernent"
+    }
+  },
+  {
+    "id": 415,
+    "category": "government",
+    "en": {
+      "question": "What is shared jurisdiction between the federal government and the provinces?",
+      "choices": [
+        "Defence and currency",
+        "Agriculture and immigration",
+        "Education and healthcare",
+        "Criminal law and navigation"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Quels domaines relèvent d'une juridiction partagée entre le gouvernement fédéral et les provinces?",
+      "choices": [
+        "La défense et la monnaie",
+        "L'agriculture et l'immigration",
+        "L'éducation et les soins de santé",
+        "Le droit criminel et la navigation"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 28,
+      "page_fr": 28,
+      "section_en": "How Canadians Govern Themselves",
+      "section_fr": "Comment les Canadiens se gouvernent"
+    }
+  },
+  {
+    "id": 416,
+    "category": "federal_elections",
+    "en": {
+      "question": "What is a 'riding' in Canadian politics?",
+      "choices": [
+        "A political party's governing coalition",
+        "An electoral district represented by a member of Parliament",
+        "A regional office of Elections Canada",
+        "A riding is the term for a provincial election campaign"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Qu'est-ce qu'une « circonscription » en politique canadienne?",
+      "choices": [
+        "Une coalition gouvernementale d'un parti politique",
+        "Un district électoral représenté par un député",
+        "Un bureau régional d'Élections Canada",
+        "Le terme pour désigner une campagne électorale provinciale"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 30,
+      "page_fr": 30,
+      "section_en": "Federal Elections",
+      "section_fr": "Les élections fédérales"
+    }
+  },
+  {
+    "id": 417,
+    "category": "federal_elections",
+    "en": {
+      "question": "What is a minority government in Canada?",
+      "choices": [
+        "A government formed by a party representing a minority ethnic group",
+        "A government formed by the party that holds less than half of the seats in the House of Commons",
+        "A government that governs without a Cabinet",
+        "A government that requires Senate approval for all decisions"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Qu'est-ce qu'un gouvernement minoritaire au Canada?",
+      "choices": [
+        "Un gouvernement formé par un parti représentant un groupe ethnique minoritaire",
+        "Un gouvernement formé par le parti qui détient moins de la moitié des sièges à la Chambre des communes",
+        "Un gouvernement qui gouverne sans Cabinet",
+        "Un gouvernement qui requiert l'approbation du Sénat pour toutes ses décisions"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 31,
+      "page_fr": 31,
+      "section_en": "Federal Elections",
+      "section_fr": "Les élections fédérales"
+    }
+  },
+  {
+    "id": 418,
+    "category": "federal_elections",
+    "en": {
+      "question": "What is the Official Opposition in Canada?",
+      "choices": [
+        "The party that lost the most recent election",
+        "The opposition party with the most members of the House of Commons",
+        "All parties that are not in government",
+        "The party that forms the Senate majority"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Qu'est-ce que l'Opposition officielle au Canada?",
+      "choices": [
+        "Le parti qui a perdu la dernière élection",
+        "Le parti d'opposition ayant le plus de membres à la Chambre des communes",
+        "Tous les partis qui ne sont pas au gouvernement",
+        "Le parti qui forme la majorité au Sénat"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 31,
+      "page_fr": 31,
+      "section_en": "Federal Elections",
+      "section_fr": "Les élections fédérales"
+    }
+  },
+  {
+    "id": 419,
+    "category": "federal_elections",
+    "en": {
+      "question": "What is the National Register of Electors in Canada?",
+      "choices": [
+        "A list of all Canadian politicians eligible to run for office",
+        "A permanent database of Canadian citizens 18 or older who are qualified to vote in federal elections",
+        "A record of all votes cast in federal elections",
+        "A list of polling stations across Canada"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Qu'est-ce que le Registre national des électeurs au Canada?",
+      "choices": [
+        "Une liste de tous les politiciens canadiens admissibles à se présenter aux élections",
+        "Une base de données permanente des citoyens canadiens de 18 ans ou plus admissibles à voter aux élections fédérales",
+        "Un registre de tous les votes exprimés lors des élections fédérales",
+        "Une liste des bureaux de vote à travers le Canada"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 31,
+      "page_fr": 31,
+      "section_en": "Federal Elections",
+      "section_fr": "Les élections fédérales"
+    }
+  },
+  {
+    "id": 420,
+    "category": "federal_elections",
+    "en": {
+      "question": "What is the neutral agency of Parliament that produces voters' lists for federal elections?",
+      "choices": [
+        "The Department of Justice",
+        "Elections Canada",
+        "The Senate Administration",
+        "The Office of the Governor General"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Quel est l'organisme neutre du Parlement qui produit les listes électorales pour les élections fédérales?",
+      "choices": [
+        "Le ministère de la Justice",
+        "Élections Canada",
+        "L'Administration du Sénat",
+        "Le Bureau du gouverneur général"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 31,
+      "page_fr": 31,
+      "section_en": "Federal Elections",
+      "section_fr": "Les élections fédérales"
+    }
+  },
+  {
+    "id": 421,
+    "category": "federal_elections",
+    "en": {
+      "question": "What happens when the House of Commons votes against a major government decision?",
+      "choices": [
+        "The Senate takes over government functions",
+        "The party in power is defeated, usually resulting in the Prime Minister asking the Governor General to call an election",
+        "The Supreme Court must review the decision",
+        "The Cabinet automatically resigns without a new election"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Que se passe-t-il lorsque la Chambre des communes vote contre une décision importante du gouvernement?",
+      "choices": [
+        "Le Sénat assume les fonctions gouvernementales",
+        "Le parti au pouvoir est défait, ce qui conduit généralement le premier ministre à demander au gouverneur général de déclencher des élections",
+        "La Cour suprême doit examiner la décision",
+        "Le Cabinet démissionne automatiquement sans nouvelles élections"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 31,
+      "page_fr": 31,
+      "section_en": "Federal Elections",
+      "section_fr": "Les élections fédérales"
+    }
+  },
+  {
+    "id": 422,
+    "category": "justice_system",
+    "en": {
+      "question": "What does the Supreme Court of Canada consist of?",
+      "choices": [
+        "Seven judges appointed by Parliament",
+        "Nine judges appointed by the Governor General",
+        "Eleven judges elected by the provinces",
+        "Five judges appointed for life by the Prime Minister"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "De quoi est composée la Cour suprême du Canada?",
+      "choices": [
+        "Sept juges nommés par le Parlement",
+        "Neuf juges nommés par le gouverneur général",
+        "Onze juges élus par les provinces",
+        "Cinq juges nommés à vie par le premier ministre"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 36,
+      "page_fr": 36,
+      "section_en": "The Justice System",
+      "section_fr": "Le système judiciaire"
+    }
+  },
+  {
+    "id": 423,
+    "category": "justice_system",
+    "en": {
+      "question": "What is the principle of 'innocent until proven guilty' in the Canadian justice system?",
+      "choices": [
+        "A principle that applies only to first-time offenders",
+        "A fundamental legal principle that the accused is presumed innocent until proven guilty by the court",
+        "A principle that requires the accused to prove their own innocence",
+        "A principle that applies only in jury trials"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Quel est le principe de la « présomption d'innocence » dans le système judiciaire canadien?",
+      "choices": [
+        "Un principe qui s'applique uniquement aux délinquants primaires",
+        "Un principe juridique fondamental selon lequel l'accusé est présumé innocent jusqu'à preuve du contraire devant le tribunal",
+        "Un principe qui exige que l'accusé prouve sa propre innocence",
+        "Un principe qui s'applique uniquement dans les procès avec jury"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 36,
+      "page_fr": 36,
+      "section_en": "The Justice System",
+      "section_fr": "Le système judiciaire"
+    }
+  },
+  {
+    "id": 424,
+    "category": "justice_system",
+    "en": {
+      "question": "What are the two official languages that Canadian courts must operate in?",
+      "choices": [
+        "English only at the federal level",
+        "English and French",
+        "English, French, and any Indigenous language requested",
+        "The official language of the province where the court is located"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Dans quelles langues officielles les tribunaux canadiens doivent-ils fonctionner?",
+      "choices": [
+        "En anglais seulement au niveau fédéral",
+        "En anglais et en français",
+        "En anglais, en français et dans toute langue autochtone demandée",
+        "Dans la langue officielle de la province où le tribunal est situé"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 36,
+      "page_fr": 36,
+      "section_en": "The Justice System",
+      "section_fr": "Le système judiciaire"
+    }
+  },
+  {
+    "id": 425,
+    "category": "justice_system",
+    "en": {
+      "question": "What is the role of police forces in Canada?",
+      "choices": [
+        "To enforce laws, prevent crime, maintain peace and order",
+        "To make laws and prosecute criminals",
+        "To set sentences for convicted criminals",
+        "To manage federal prisons and correctional facilities"
+      ],
+      "answer": 0
+    },
+    "fr": {
+      "question": "Quel est le rôle des forces policières au Canada?",
+      "choices": [
+        "Faire respecter les lois, prévenir la criminalité, maintenir la paix et l'ordre",
+        "Élaborer des lois et poursuivre les criminels en justice",
+        "Fixer les peines pour les criminels condamnés",
+        "Gérer les prisons fédérales et les établissements correctionnels"
+      ],
+      "answer": 0
+    },
+    "source": {
+      "page_en": 36,
+      "page_fr": 36,
+      "section_en": "The Justice System",
+      "section_fr": "Le système judiciaire"
+    }
+  },
+  {
+    "id": 426,
+    "category": "symbols",
+    "en": {
+      "question": "What is the national animal of Canada?",
+      "choices": [
+        "The moose",
+        "The polar bear",
+        "The beaver",
+        "The Canada goose"
+      ],
+      "answer": 2
+    },
+    "fr": {
+      "question": "Quel est l'animal national du Canada?",
+      "choices": [
+        "L'orignal",
+        "L'ours polaire",
+        "Le castor",
+        "La bernache du Canada"
+      ],
+      "answer": 2
+    },
+    "source": {
+      "page_en": 38,
+      "page_fr": 38,
+      "section_en": "Canadian Symbols",
+      "section_fr": "Les symboles canadiens"
+    }
+  },
+  {
+    "id": 427,
+    "category": "symbols",
+    "en": {
+      "question": "What colours make up the Canadian flag?",
+      "choices": [
+        "Blue, white and red",
+        "Red and white",
+        "Red, white and gold",
+        "Red, white and blue"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "De quelles couleurs est composé le drapeau canadien?",
+      "choices": [
+        "Bleu, blanc et rouge",
+        "Rouge et blanc",
+        "Rouge, blanc et or",
+        "Rouge, blanc et bleu"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 38,
+      "page_fr": 38,
+      "section_en": "Canadian Symbols",
+      "section_fr": "Les symboles canadiens"
+    }
+  },
+  {
+    "id": 428,
+    "category": "symbols",
+    "en": {
+      "question": "What do the words 'A mari usque ad mare' mean, Canada's national motto?",
+      "choices": [
+        "'Peace, order and good government'",
+        "'From sea to sea'",
+        "'Strong and free'",
+        "'Unity in diversity'"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Que signifient les mots « A mari usque ad mare », la devise nationale du Canada?",
+      "choices": [
+        "« Paix, ordre et bon gouvernement »",
+        "« D'un océan à l'autre »",
+        "« Fort et libre »",
+        "« L'unité dans la diversité »"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 38,
+      "page_fr": 38,
+      "section_en": "Canadian Symbols",
+      "section_fr": "Les symboles canadiens"
+    }
+  },
+  {
+    "id": 429,
+    "category": "symbols",
+    "en": {
+      "question": "What is the name of Canada's national anthem and in what year was it proclaimed?",
+      "choices": [
+        "'God Save the Queen', proclaimed in 1867",
+        "'O Canada', proclaimed as the national anthem in 1980",
+        "'The Maple Leaf Forever', proclaimed in 1921",
+        "'O Canada', proclaimed as the national anthem in 1967"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Comment s'appelle l'hymne national du Canada et en quelle année a-t-il été proclamé?",
+      "choices": [
+        "« God Save the Queen », proclamé en 1867",
+        "« Ô Canada », proclamé hymne national en 1980",
+        "« The Maple Leaf Forever », proclamé en 1921",
+        "« Ô Canada », proclamé hymne national en 1967"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 38,
+      "page_fr": 38,
+      "section_en": "Canadian Symbols",
+      "section_fr": "Les symboles canadiens"
+    }
+  },
+  {
+    "id": 430,
+    "category": "symbols",
+    "en": {
+      "question": "What is the Canadian Horse often called?",
+      "choices": [
+        "The national horse of Canada",
+        "The most important Canadian symbol",
+        "The oldest breed of horse in Canada",
+        "The horse of the Royal Canadian Mounted Police"
+      ],
+      "answer": 0
+    },
+    "fr": {
+      "question": "Comment le Cheval canadien est-il souvent appelé?",
+      "choices": [
+        "Le cheval national du Canada",
+        "Le symbole canadien le plus important",
+        "La race de chevaux la plus ancienne au Canada",
+        "Le cheval de la Gendarmerie royale du Canada"
+      ],
+      "answer": 0
+    },
+    "source": {
+      "page_en": 41,
+      "page_fr": 41,
+      "section_en": "Canadian Symbols",
+      "section_fr": "Les symboles canadiens"
+    }
+  },
+  {
+    "id": 431,
+    "category": "symbols",
+    "en": {
+      "question": "What sport is Canada's official summer sport?",
+      "choices": [
+        "Ice hockey",
+        "Curling",
+        "Lacrosse",
+        "Basketball"
+      ],
+      "answer": 2
+    },
+    "fr": {
+      "question": "Quel sport est le sport d'été officiel du Canada?",
+      "choices": [
+        "Le hockey sur glace",
+        "Le curling",
+        "La crosse",
+        "Le basketball"
+      ],
+      "answer": 2
+    },
+    "source": {
+      "page_en": 40,
+      "page_fr": 40,
+      "section_en": "Canadian Symbols",
+      "section_fr": "Les symboles canadiens"
+    }
+  },
+  {
+    "id": 432,
+    "category": "symbols",
+    "en": {
+      "question": "What is the significance of the red poppy in Canada?",
+      "choices": [
+        "It is the symbol of the Royal Canadian Mounted Police",
+        "It is worn to honour the memory of those who died serving Canada in wars",
+        "It represents the national flower of Canada",
+        "It is the symbol of the Governor General's office"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Quelle est la signification du coquelicot rouge au Canada?",
+      "choices": [
+        "C'est le symbole de la Gendarmerie royale du Canada",
+        "On le porte pour honorer la mémoire de ceux qui sont morts en servant le Canada lors des guerres",
+        "Il représente la fleur nationale du Canada",
+        "C'est le symbole du bureau du gouverneur général"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 23,
+      "page_fr": 23,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 433,
+    "category": "symbols",
+    "en": {
+      "question": "What does the coat of arms of Canada include?",
+      "choices": [
+        "Only the maple leaf and the motto",
+        "The arms of England, Scotland, Ireland and France, plus a sprig of maple leaves",
+        "A beaver, a moose and the Canadian flag",
+        "The Crown, the eagle and a bison"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Que comprend les armoiries du Canada?",
+      "choices": [
+        "Seulement la feuille d'érable et la devise",
+        "Les armes de l'Angleterre, de l'Écosse, de l'Irlande et de la France, plus une branche de feuilles d'érable",
+        "Un castor, un orignal et le drapeau canadien",
+        "La Couronne, l'aigle et un bison"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 39,
+      "page_fr": 39,
+      "section_en": "Canadian Symbols",
+      "section_fr": "Les symboles canadiens"
+    }
+  },
+  {
+    "id": 434,
+    "category": "modern_canada",
+    "en": {
+      "question": "Who was Terry Fox and what is his legacy?",
+      "choices": [
+        "A hockey player who won Canada multiple gold medals at the Olympics",
+        "A British Columbian who lost his leg to cancer and ran the Marathon of Hope to raise money for cancer research",
+        "A scientist who won the Nobel Prize for his cancer research",
+        "A politician who created the national healthcare system"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Qui était Terry Fox et quel est son héritage?",
+      "choices": [
+        "Un hockeyeur qui a remporté plusieurs médailles d'or aux Jeux olympiques pour le Canada",
+        "Un Britanno-Colombien qui a perdu sa jambe au cancer et a couru le Marathon de l'espoir pour amasser des fonds pour la recherche sur le cancer",
+        "Un scientifique qui a reçu le prix Nobel pour ses recherches sur le cancer",
+        "Un politicien qui a créé le système national de soins de santé"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 26,
+      "page_fr": 26,
+      "section_en": "Modern Canada",
+      "section_fr": "Le Canada moderne"
+    }
+  },
+  {
+    "id": 435,
+    "category": "modern_canada",
+    "en": {
+      "question": "What Canadian invention was used as a robotic arm in outer space?",
+      "choices": [
+        "The BlackBerry",
+        "The Canadarm",
+        "The cardiac pacemaker",
+        "The snowmobile"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Quelle invention canadienne a été utilisée comme bras robotisé dans l'espace?",
+      "choices": [
+        "Le BlackBerry",
+        "Le Canadarm",
+        "Le stimulateur cardiaque",
+        "La motoneige"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 26,
+      "page_fr": 26,
+      "section_en": "Modern Canada",
+      "section_fr": "Le Canada moderne"
+    }
+  },
+  {
+    "id": 436,
+    "category": "modern_canada",
+    "en": {
+      "question": "Who invented basketball and where was he from?",
+      "choices": [
+        "Wayne Gretzky, from Brantford, Ontario",
+        "James Naismith, a Canadian, in 1891",
+        "Donovan Bailey, from Oakville, Ontario",
+        "Terry Fox, from Port Coquitlam, British Columbia"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Qui a inventé le basketball et d'où venait-il?",
+      "choices": [
+        "Wayne Gretzky, de Brantford, en Ontario",
+        "James Naismith, un Canadien, en 1891",
+        "Donovan Bailey, d'Oakville, en Ontario",
+        "Terry Fox, de Port Coquitlam, en Colombie-Britannique"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 26,
+      "page_fr": 26,
+      "section_en": "Modern Canada",
+      "section_fr": "Le Canada moderne"
+    }
+  },
+  {
+    "id": 437,
+    "category": "modern_canada",
+    "en": {
+      "question": "What is the Canada Health Act?",
+      "choices": [
+        "A law that ensures all hospitals are federally owned",
+        "A law that ensures common elements and a basic standard of health coverage across Canada",
+        "A law that prohibits private healthcare",
+        "A law that funds medical research in Canadian universities"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Qu'est-ce que la Loi canadienne sur la santé?",
+      "choices": [
+        "Une loi qui garantit que tous les hôpitaux appartiennent au gouvernement fédéral",
+        "Une loi qui assure des éléments communs et une norme de base de couverture de soins de santé à travers le Canada",
+        "Une loi qui interdit les soins de santé privés",
+        "Une loi qui finance la recherche médicale dans les universités canadiennes"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 25,
+      "page_fr": 25,
+      "section_en": "Modern Canada",
+      "section_fr": "Le Canada moderne"
+    }
+  },
+  {
+    "id": 438,
+    "category": "modern_canada",
+    "en": {
+      "question": "Sir Frederick Banting and Charles Best are famous for discovering what?",
+      "choices": [
+        "The first cardiac pacemaker",
+        "Insulin, a hormone to treat diabetes",
+        "The telephone",
+        "Standard time zones"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Sir Frederick Banting et Charles Best sont célèbres pour quelle découverte?",
+      "choices": [
+        "Le premier stimulateur cardiaque",
+        "L'insuline, une hormone pour traiter le diabète",
+        "Le téléphone",
+        "Les fuseaux horaires standard"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 26,
+      "page_fr": 26,
+      "section_en": "Modern Canada",
+      "section_fr": "Le Canada moderne"
+    }
+  },
+  {
+    "id": 439,
+    "category": "modern_canada",
+    "en": {
+      "question": "What artistic movement was the Group of Seven known for?",
+      "choices": [
+        "Abstract expressionism in the 1950s",
+        "A style of painting to capture rugged wilderness landscapes, founded in 1920",
+        "Realistic portraiture of Canadian political figures",
+        "Indigenous art inspired by First Nations traditions"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Pour quel mouvement artistique le Groupe des Sept était-il connu?",
+      "choices": [
+        "L'expressionnisme abstrait dans les années 1950",
+        "Un style de peinture pour capturer les paysages sauvages et rugueux, fondé en 1920",
+        "Le portrait réaliste de personnalités politiques canadiennes",
+        "L'art autochtone inspiré des traditions des Premières Nations"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 25,
+      "page_fr": 25,
+      "section_en": "Modern Canada",
+      "section_fr": "Le Canada moderne"
+    }
+  },
+  {
+    "id": 440,
+    "category": "history_european",
+    "en": {
+      "question": "What was the role of the Hudson's Bay Company granted by King Charles II in 1670?",
+      "choices": [
+        "To govern the Province of Quebec on behalf of the Crown",
+        "Exclusive trading rights over the watershed draining into Hudson Bay",
+        "To manage all immigration from Britain to Canada",
+        "To negotiate peace treaties with Aboriginal peoples"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Quel rôle la Compagnie de la Baie d'Hudson s'est-elle vu accorder par le roi Charles II en 1670?",
+      "choices": [
+        "Gouverner la Province de Québec au nom de la Couronne",
+        "Des droits commerciaux exclusifs sur le bassin versant se déversant dans la baie d'Hudson",
+        "Gérer toute l'immigration de Grande-Bretagne vers le Canada",
+        "Négocier des traités de paix avec les peuples autochtones"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 15,
+      "page_fr": 15,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 441,
+    "category": "history_european",
+    "en": {
+      "question": "What was the Underground Railroad?",
+      "choices": [
+        "A subway system built in Toronto in the 1800s",
+        "A Christian anti-slavery network that helped escaped slaves from the U.S. settle in Canada",
+        "A network of tunnels used by Loyalists to escape the American Revolution",
+        "A railway built to connect the Maritime provinces to central Canada"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Qu'était le « chemin de fer clandestin » (Underground Railroad)?",
+      "choices": [
+        "Un réseau de métro construit à Toronto dans les années 1800",
+        "Un réseau abolitionniste chrétien qui aidait les esclaves fugitifs américains à s'établir au Canada",
+        "Un réseau de tunnels utilisés par les Loyalistes pour fuir la Révolution américaine",
+        "Un chemin de fer construit pour relier les provinces maritimes au centre du Canada"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 17,
+      "page_fr": 17,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 442,
+    "category": "history_european",
+    "en": {
+      "question": "What was Louis Riel known for?",
+      "choices": [
+        "He was Canada's first French-Canadian Prime Minister",
+        "He led the Métis in uprisings and is seen as a defender of Métis rights and father of Manitoba",
+        "He founded the North West Mounted Police",
+        "He negotiated the entry of British Columbia into Confederation"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Pour quoi Louis Riel était-il connu?",
+      "choices": [
+        "Il fut le premier premier ministre canadien-français du Canada",
+        "Il dirigea les Métis lors de soulèvements et est considéré comme un défenseur des droits des Métis et père du Manitoba",
+        "Il fonda la Police à cheval du Nord-Ouest",
+        "Il négocia l'entrée de la Colombie-Britannique dans la Confédération"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 19,
+      "page_fr": 19,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 443,
+    "category": "history_european",
+    "en": {
+      "question": "What is the Battle of the Plains of Abraham and when did it take place?",
+      "choices": [
+        "A French victory over the British in 1745 at Montreal",
+        "The 1759 battle at Quebec City where the British defeated the French, marking the end of France's empire in America",
+        "A decisive Loyalist battle against American forces in 1776",
+        "The 1837 rebellion in Upper Canada that led to responsible government"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Qu'est-ce que la bataille des Plaines d'Abraham et quand a-t-elle eu lieu?",
+      "choices": [
+        "Une victoire française sur les Britanniques à Montréal en 1745",
+        "La bataille de 1759 à Québec où les Britanniques ont défait les Français, marquant la fin de l'empire de la France en Amérique",
+        "Une bataille décisive des Loyalistes contre les forces américaines en 1776",
+        "La rébellion de 1837 dans le Haut-Canada qui a conduit au gouvernement responsable"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 15,
+      "page_fr": 15,
+      "section_en": "Canada's History",
+      "section_fr": "L'histoire du Canada"
+    }
+  },
+  {
+    "id": 444,
+    "category": "regions",
+    "en": {
+      "question": "What are the four Atlantic provinces of Canada?",
+      "choices": [
+        "Ontario, Quebec, Nova Scotia and New Brunswick",
+        "New Brunswick, Nova Scotia, Prince Edward Island and Newfoundland and Labrador",
+        "Nova Scotia, New Brunswick, Quebec and Prince Edward Island",
+        "Newfoundland and Labrador, New Brunswick, Quebec and Ontario"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Quelles sont les quatre provinces atlantiques du Canada?",
+      "choices": [
+        "L'Ontario, le Québec, la Nouvelle-Écosse et le Nouveau-Brunswick",
+        "Le Nouveau-Brunswick, la Nouvelle-Écosse, l'Île-du-Prince-Édouard et Terre-Neuve-et-Labrador",
+        "La Nouvelle-Écosse, le Nouveau-Brunswick, le Québec et l'Île-du-Prince-Édouard",
+        "Terre-Neuve-et-Labrador, le Nouveau-Brunswick, le Québec et l'Ontario"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 46,
+      "page_fr": 46,
+      "section_en": "Canada's Regions",
+      "section_fr": "Les régions du Canada"
+    }
+  },
+  {
+    "id": 445,
+    "category": "regions",
+    "en": {
+      "question": "What is the capital of New Brunswick and what is the city of Moncton known for?",
+      "choices": [
+        "Fredericton is the capital; Moncton is known as the gateway to the Maritimes",
+        "Moncton is the capital; Fredericton is the industrial centre",
+        "Saint John is the capital; Moncton is the cultural centre",
+        "Fredericton is the capital; Moncton is the largest city"
+      ],
+      "answer": 0
+    },
+    "fr": {
+      "question": "Quelle est la capitale du Nouveau-Brunswick et pour quoi la ville de Moncton est-elle connue?",
+      "choices": [
+        "Fredericton est la capitale; Moncton est connue comme la porte d'entrée des Maritimes",
+        "Moncton est la capitale; Fredericton est le centre industriel",
+        "Saint John est la capitale; Moncton est le centre culturel",
+        "Fredericton est la capitale; Moncton est la plus grande ville"
+      ],
+      "answer": 0
+    },
+    "source": {
+      "page_en": 46,
+      "page_fr": 46,
+      "section_en": "Canada's Regions",
+      "section_fr": "Les régions du Canada"
+    }
+  },
+  {
+    "id": 446,
+    "category": "regions",
+    "en": {
+      "question": "What is Ontario often called in relation to Canada?",
+      "choices": [
+        "The Gateway to the West",
+        "The Heartland Province",
+        "The industrial and commercial heartland, home to the federal capital Ottawa",
+        "The Cultural Capital of Canada"
+      ],
+      "answer": 2
+    },
+    "fr": {
+      "question": "Comment l'Ontario est-il souvent qualifié par rapport au Canada?",
+      "choices": [
+        "La porte de l'Ouest",
+        "La province du cœur",
+        "Le cœur industriel et commercial, siège de la capitale fédérale Ottawa",
+        "La capitale culturelle du Canada"
+      ],
+      "answer": 2
+    },
+    "source": {
+      "page_en": 47,
+      "page_fr": 47,
+      "section_en": "Canada's Regions",
+      "section_fr": "Les régions du Canada"
+    }
+  },
+  {
+    "id": 447,
+    "category": "regions",
+    "en": {
+      "question": "What is Quebec known for in terms of population and culture?",
+      "choices": [
+        "It is the most populous province and the centre of English-Canadian culture",
+        "It is the largest province and has the largest French-speaking population in Canada",
+        "It is both the largest and most populous province of Canada",
+        "It is the oldest province and home to the first European settlements"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Pour quoi le Québec est-il connu en termes de population et de culture?",
+      "choices": [
+        "C'est la province la plus peuplée et le centre de la culture canadienne-anglaise",
+        "C'est la plus grande province et celle qui abrite la plus grande population francophone au Canada",
+        "C'est à la fois la plus grande et la plus peuplée des provinces canadiennes",
+        "C'est la plus ancienne province et le foyer des premiers établissements européens"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 47,
+      "page_fr": 47,
+      "section_en": "Canada's Regions",
+      "section_fr": "Les régions du Canada"
+    }
+  },
+  {
+    "id": 448,
+    "category": "economy",
+    "en": {
+      "question": "What is the role of the Canadian Space Agency established in 1989?",
+      "choices": [
+        "To train astronauts exclusively for NASA missions",
+        "To participate in space exploration, often using the Canadian-designed Canadarm",
+        "To build satellites for Canadian telecommunications companies",
+        "To monitor weather patterns across Canada from orbit"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Quel est le rôle de l'Agence spatiale canadienne créée en 1989?",
+      "choices": [
+        "Former des astronautes exclusivement pour les missions de la NASA",
+        "Participer à l'exploration spatiale, en utilisant souvent le Canadarm conçu au Canada",
+        "Construire des satellites pour les entreprises canadiennes de télécommunications",
+        "Surveiller les conditions météorologiques à travers le Canada depuis l'orbite"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 26,
+      "page_fr": 26,
+      "section_en": "Modern Canada",
+      "section_fr": "Le Canada moderne"
+    }
+  },
+  {
+    "id": 449,
+    "category": "rights_responsibilities",
+    "en": {
+      "question": "What does the Canadian Charter protect regarding language minorities?",
+      "choices": [
+        "That all Canadians must learn both official languages",
+        "Official Language Rights — French and English have equal status in Parliament; and Minority Language Educational Rights",
+        "That minority languages such as Chinese and Punjabi are co-official",
+        "That only the majority language in each province needs to be recognized"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Que protège la Charte canadienne concernant les minorités linguistiques?",
+      "choices": [
+        "Que tous les Canadiens doivent apprendre les deux langues officielles",
+        "Les droits linguistiques officiels — le français et l'anglais ont un statut égal au Parlement; et les droits à l'éducation dans la langue de la minorité",
+        "Que des langues minoritaires comme le chinois et le punjabi sont co-officielles",
+        "Que seule la langue majoritaire de chaque province doit être reconnue"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 8,
+      "page_fr": 8,
+      "section_en": "Rights and Responsibilities of Citizenship",
+      "section_fr": "Les droits et responsabilités liés à la citoyenneté"
+    }
+  },
+  {
+    "id": 450,
+    "category": "government",
+    "en": {
+      "question": "What is the role of municipal government in Canada?",
+      "choices": [
+        "To pass federal laws at the local level",
+        "To manage local matters such as urban planning, roads, sanitation, firefighting and local services",
+        "To represent Canada in international negotiations",
+        "To oversee provincial courts and local policing across all provinces"
+      ],
+      "answer": 1
+    },
+    "fr": {
+      "question": "Quel est le rôle du gouvernement municipal au Canada?",
+      "choices": [
+        "Adopter des lois fédérales au niveau local",
+        "Gérer les affaires locales telles que l'urbanisme, les routes, la salubrité, les pompiers et les services locaux",
+        "Représenter le Canada dans les négociations internationales",
+        "Superviser les tribunaux provinciaux et la police locale dans toutes les provinces"
+      ],
+      "answer": 1
+    },
+    "source": {
+      "page_en": 32,
+      "page_fr": 32,
+      "section_en": "Federal Elections",
+      "section_fr": "Les élections fédérales"
     }
   }
 ]
