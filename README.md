@@ -37,8 +37,8 @@ Based exclusively on the official [**Discover Canada / Découvrir le Canada**](h
 ## Installation
 
 ```bash
-git clone https://github.com/Gcx44/citizenready.git
-cd citizenready
+git clone https://github.com/Gcx44/leafready.git
+cd leafready
 npm install
 ```
 
