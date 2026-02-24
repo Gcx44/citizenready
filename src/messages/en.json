@@ -87,6 +87,27 @@
     "successMessage": "Thank you, we'll review this question.",
     "errorMessage": "Failed to send. Please try again."
   },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about LeafReady and the Canadian citizenship test",
+    "q1": "What is LeafReady?",
+    "a1": "LeafReady is a free bilingual practice quiz to help you prepare for the Canadian citizenship test. It contains 450+ questions based exclusively on the official \"Discover Canada\" guide published by the Government of Canada.",
+    "q2": "Is this an official Government of Canada app?",
+    "a2": "No. LeafReady is an independent open-source project. It is not affiliated with, endorsed by, or connected to the Government of Canada or Immigration, Refugees and Citizenship Canada (IRCC). Questions are AI-generated and are not official test questions.",
+    "q3": "How does the real citizenship test work?",
+    "a3": "The Canadian citizenship test consists of 20 multiple-choice questions. You have 45 minutes to complete it. A score of 75% or more (15 out of 20) is required to pass. The test covers Canadian history, values, institutions, and symbols — all topics found in the Discover Canada guide.",
+    "q4": "Is LeafReady free?",
+    "a4": "Yes, completely free — and it always will be. There are no ads, no accounts, no subscriptions. If you find it helpful, you can support the project with a small donation or by sharing it with others.",
+    "q5": "What languages are supported?",
+    "a5": "LeafReady is fully bilingual in English and French, just like the real test. You can switch languages at any time using the toggle in the top right corner.",
+    "q6": "What is the difference between Quiz Mode and Practice Mode?",
+    "a6": "Quiz Mode simulates the real test: 20 random questions with a 45-minute countdown. Practice Mode lets you train without a timer, choose how many questions you want (40, 60, 80, or 100), and stop at any time. Both modes show correct answers and source references after each question.",
+    "q7": "Where do the questions come from?",
+    "a7": "All questions are based on the official \"Discover Canada: The Rights and Responsibilities of Citizenship\" guide. You can download the guide directly from the app's home page in English or French.",
+    "q8": "I found an error in a question. How do I report it?",
+    "a8": "Each question has a \"Report\" button at the bottom. Use it to flag wrong answers, unclear phrasing, or translation errors. Reports are sent directly to the development team and reviewed promptly.",
+    "backHome": "Back to Home"
+  },
   "categories": {
     "rights_responsibilities": "Rights & Responsibilities",
     "who_we_are": "Who We Are",

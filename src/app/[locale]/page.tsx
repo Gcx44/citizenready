@@ -141,6 +141,13 @@ export default function HomePage() {
         </Link>
         <div className="text-xs text-gray-400 dark:text-gray-500 space-y-1">
           <div>
+            <Link
+              href="faq"
+              className="underline hover:text-gray-600 dark:hover:text-gray-300"
+            >
+              FAQ
+            </Link>
+            {" · "}
             <a
               href="https://github.com/Gcx44/leafready"
               target="_blank"
