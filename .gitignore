@@ -45,5 +45,5 @@ decouvrir.txt
 # TypeScript build info
 tsconfig.tsbuildinfo
 
-# Claude Code local settings (permissions, not relevant for contributors)
-.claude/settings.local.json
+# Claude Code project folder (local config, not relevant for contributors)
+.claude/
