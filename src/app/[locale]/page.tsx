@@ -4,12 +4,29 @@ import LanguageSwitcher from "@/components/LanguageSwitcher";
 import StatsCard from "@/components/StatsCard";
 import PracticeSelector from "@/components/PracticeSelector";
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: "LeafReady",
+  url: "https://leafready.ca",
+  description:
+    "Free bilingual practice quiz for the Canadian citizenship test. 385+ questions based on the official Discover Canada guide.",
+  applicationCategory: "EducationalApplication",
+  operatingSystem: "Any",
+  offers: { "@type": "Offer", price: "0", priceCurrency: "CAD" },
+  inLanguage: ["en-CA", "fr-CA"],
+};
+
 export default function HomePage() {
   const t = useTranslations("app");
   const tStats = useTranslations("stats");
 
   return (
     <div className="min-h-screen bg-stone-50 dark:bg-gray-900 flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Nav */}
       <header className="bg-white dark:bg-gray-800 border-b border-gray-100 dark:border-gray-700 px-4 py-3">
         <div className="max-w-2xl mx-auto flex items-center justify-between">
@@ -115,35 +132,38 @@ export default function HomePage() {
         </div>
       </main>
 
-      <footer className="text-center py-4 text-xs text-gray-400 dark:text-gray-500 space-y-1">
-        <div>
-          <a
-            href="https://github.com/Gcx44/leafready"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline hover:text-gray-600 dark:hover:text-gray-300"
-          >
-            GitHub
-          </a>
-          {" · "}
-          <Link
-            href="support"
-            className="underline hover:text-gray-600 dark:hover:text-gray-300"
-          >
-            ☕ Support
-          </Link>
-        </div>
-        <div>
-          Open source · Based on the official{" "}
-          <a
-            href="https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline hover:text-gray-600 dark:hover:text-gray-300"
-          >
-            Discover Canada
-          </a>{" "}
-          guide · Not affiliated with the Government of Canada
+      <footer className="text-center py-6 px-4 space-y-3">
+        <Link
+          href="support"
+          className="inline-flex items-center gap-2 px-5 py-2.5 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-700 text-amber-700 dark:text-amber-400 rounded-xl text-sm font-semibold hover:bg-amber-100 dark:hover:bg-amber-900/40 transition-colors"
+        >
+          ☕ Support LeafReady
+        </Link>
+        <div className="text-xs text-gray-400 dark:text-gray-500 space-y-1">
+          <div>
+            <a
+              href="https://github.com/Gcx44/leafready"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-gray-600 dark:hover:text-gray-300"
+            >
+              GitHub
+            </a>
+            {" · "}
+            Open source · Not affiliated with the Government of Canada
+          </div>
+          <div>
+            Based on the official{" "}
+            <a
+              href="https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-gray-600 dark:hover:text-gray-300"
+            >
+              Discover Canada
+            </a>{" "}
+            guide
+          </div>
         </div>
       </footer>
     </div>
