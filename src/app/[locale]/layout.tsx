@@ -6,54 +6,63 @@ import { routing } from "@/i18n/routing";
 import ThemeProvider from "@/components/ThemeProvider";
 import "../globals.css";
 
-export const metadata: Metadata = {
-  title: {
-    default: "LeafReady — Canadian Citizenship Test Practice",
-    template: "%s | LeafReady",
-  },
-  description:
-    "Free bilingual practice quiz for the Canadian citizenship test. 385+ questions based on the official Discover Canada guide. No account needed.",
-  keywords: [
-    "Canadian citizenship test",
-    "citizenship practice quiz",
-    "Discover Canada",
-    "test de citoyenneté canadienne",
-    "quiz citoyenneté",
-    "Découvrir le Canada",
-    "IRCC practice test",
-    "citizenship exam prep",
-    "Canada immigration test",
-  ],
-  icons: { icon: "/favicon.svg" },
-  metadataBase: new URL("https://leafready.ca"),
-  alternates: {
-    canonical: "/",
-    languages: {
-      "en-CA": "/en",
-      "fr-CA": "/fr",
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+
+  return {
+    title: {
+      default: "LeafReady — Canadian Citizenship Test Practice",
+      template: "%s | LeafReady",
     },
-  },
-  openGraph: {
-    title: "LeafReady — Canadian Citizenship Test Practice",
     description:
-      "Free bilingual practice quiz for the Canadian citizenship test. 385+ questions based on the official Discover Canada guide.",
-    url: "https://leafready.ca",
-    siteName: "LeafReady",
-    locale: "en_CA",
-    alternateLocale: "fr_CA",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "LeafReady — Canadian Citizenship Test Practice",
-    description:
-      "Free bilingual practice quiz for the Canadian citizenship test. 385+ questions, no account needed.",
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-};
+      "Free bilingual practice quiz for the Canadian citizenship test. 385+ questions based on the official Discover Canada guide. No account needed.",
+    keywords: [
+      "Canadian citizenship test",
+      "citizenship practice quiz",
+      "Discover Canada",
+      "test de citoyenneté canadienne",
+      "quiz citoyenneté",
+      "Découvrir le Canada",
+      "IRCC practice test",
+      "citizenship exam prep",
+      "Canada immigration test",
+    ],
+    icons: { icon: "/favicon.svg" },
+    metadataBase: new URL("https://leafready.ca"),
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        "en-CA": "/en",
+        "fr-CA": "/fr",
+        "x-default": "/en",
+      },
+    },
+    openGraph: {
+      title: "LeafReady — Canadian Citizenship Test Practice",
+      description:
+        "Free bilingual practice quiz for the Canadian citizenship test. 385+ questions based on the official Discover Canada guide.",
+      url: `https://leafready.ca/${locale}`,
+      siteName: "LeafReady",
+      locale: locale === "fr" ? "fr_CA" : "en_CA",
+      alternateLocale: locale === "fr" ? "en_CA" : "fr_CA",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "LeafReady — Canadian Citizenship Test Practice",
+      description:
+        "Free bilingual practice quiz for the Canadian citizenship test. 385+ questions, no account needed.",
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

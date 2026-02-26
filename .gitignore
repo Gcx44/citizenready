@@ -47,3 +47,6 @@ tsconfig.tsbuildinfo
 
 # Claude Code project folder (local config, not relevant for contributors)
 .claude/
+
+# Personal notes (not relevant for contributors)
+SEO.md
