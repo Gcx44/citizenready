@@ -3,6 +3,7 @@ import Link from "next/link";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import StatsCard from "@/components/StatsCard";
 import PracticeSelector from "@/components/PracticeSelector";
+import Logo from "@/components/Logo";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -30,9 +31,7 @@ export default function HomePage() {
       {/* Nav */}
       <header className="bg-white dark:bg-gray-800 border-b border-gray-100 dark:border-gray-700 px-4 py-3">
         <div className="max-w-2xl mx-auto flex items-center justify-between">
-          <span className="font-bold text-red-700 dark:text-red-400 text-lg">
-            LeafReady
-          </span>
+          <Logo />
           <LanguageSwitcher />
         </div>
       </header>
@@ -42,17 +41,7 @@ export default function HomePage() {
         <div className="text-center space-y-3">
           {/* Maple leaf icon */}
           <div className="flex justify-center mb-4">
-            <svg
-              viewBox="0 0 36 36"
-              className="w-16 h-16"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill="#D42B2B"
-                d="M36 20.917c0-.688-2.895-.5-3.125-1s3.208-4.584 2.708-5.5-5.086 1.167-5.375.708c-.288-.458.292-3.5-.208-3.875s-5.25 4.916-5.917 4.292c-.666-.625 1.542-10.5 1.086-10.698-.456-.198-3.419 1.365-3.793 1.282C21.002 6.042 18.682 0 18 0s-3.002 6.042-3.376 6.125c-.374.083-3.337-1.48-3.793-1.282-.456.198 1.752 10.073 1.085 10.698C11.25 16.166 6.5 10.875 6 11.25s.08 3.417-.208 3.875c-.289.458-4.875-1.625-5.375-.708s2.939 5 2.708 5.5-3.125.312-3.125 1 8.438 5.235 9 5.771c.562.535-2.914 2.802-2.417 3.229.576.496 3.839-.83 10.417-.957V35c0 .553.448 1 1 1 .553 0 1-.447 1-1v-6.04c6.577.127 9.841 1.453 10.417.957.496-.428-2.979-2.694-2.417-3.229.562-.536 9-5.084 9-5.771z"
-              />
-            </svg>
+            <Logo size={64} hideText />
           </div>
 
           <h1 className="text-3xl md:text-4xl font-black text-gray-900 dark:text-gray-100">
