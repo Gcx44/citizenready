@@ -5,6 +5,7 @@ import { useRouter } from "expo-router";
 import { loadStats, type QuizStats } from "@leafready/core";
 import { asyncStorageAdapter } from "../lib/asyncStorageAdapter";
 import { t, getLocale, setLocale, type Locale } from "../lib/i18n";
+import Logo from "./Logo";
 
 const PRACTICE_SIZES = [40, 60, 80, 100];
 
@@ -38,12 +39,7 @@ export default function HomeScreen() {
       <ScrollView contentContainerClassName="px-4 py-6">
         {/* Header */}
         <View className="flex-row items-center justify-between mb-8">
-          <View className="flex-row items-center gap-2">
-            <Text className="text-2xl font-black text-red-600">🍁</Text>
-            <Text className="text-2xl font-black text-gray-900 dark:text-white">
-              LeafReady
-            </Text>
-          </View>
+          <Logo size={28} />
           <TouchableOpacity
             onPress={toggleLocale}
             className="px-3 py-1.5 rounded-lg border border-gray-300 dark:border-gray-600"
