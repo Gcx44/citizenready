@@ -34,7 +34,6 @@ export async function generateMetadata({
     icons: { icon: "/favicon.svg" },
     metadataBase: new URL("https://leafready.ca"),
     alternates: {
-      canonical: `/${locale}`,
       languages: {
         "en-CA": "/en",
         "fr-CA": "/fr",

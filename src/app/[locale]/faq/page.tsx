@@ -14,6 +14,14 @@ export async function generateMetadata({
   return {
     title: `${t("title")} — LeafReady`,
     description: t("subtitle"),
+    alternates: {
+      canonical: `/${locale}/faq`,
+      languages: {
+        "en-CA": "/en/faq",
+        "fr-CA": "/fr/faq",
+        "x-default": "/en/faq",
+      },
+    },
   };
 }
 

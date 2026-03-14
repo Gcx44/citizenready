@@ -5,6 +5,24 @@ import StatsCard from "@/components/StatsCard";
 import PracticeSelector from "@/components/PracticeSelector";
 import Logo from "@/components/Logo";
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return {
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        "en-CA": "/en",
+        "fr-CA": "/fr",
+        "x-default": "/en",
+      },
+    },
+  };
+}
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebApplication",

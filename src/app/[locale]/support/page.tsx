@@ -4,6 +4,24 @@ import LanguageSwitcher from "@/components/LanguageSwitcher";
 import Logo from "@/components/Logo";
 import ShareButton from "@/components/ShareButton";
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return {
+    alternates: {
+      canonical: `/${locale}/support`,
+      languages: {
+        "en-CA": "/en/support",
+        "fr-CA": "/fr/support",
+        "x-default": "/en/support",
+      },
+    },
+  };
+}
+
 const KOFI_URL = "https://ko-fi.com/gcx44";
 const PAYPAL_URL = "https://paypal.me/gclass44980";
 const GITHUB_URL = "https://github.com/Gcx44/leafready";
