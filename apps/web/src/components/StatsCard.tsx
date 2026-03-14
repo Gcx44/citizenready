@@ -2,14 +2,15 @@
 
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
-import { loadStats, type QuizStats } from "@/lib/stats";
+import { loadStats, type QuizStats } from "@leafready/core";
+import { localStorageAdapter } from "@/lib/localStorageAdapter";
 
 export default function StatsCard() {
   const t = useTranslations("stats");
   const [stats, setStats] = useState<QuizStats | null>(null);
 
   useEffect(() => {
-    setStats(loadStats());
+    loadStats(localStorageAdapter).then(setStats);
   }, []);
 
   if (!stats || stats.totalQuizzes === 0) {
