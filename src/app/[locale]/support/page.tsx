@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import Logo from "@/components/Logo";
 import ShareButton from "@/components/ShareButton";
 
 const KOFI_URL = "https://ko-fi.com/gcx44";
@@ -15,11 +16,8 @@ export default function SupportPage() {
     <div className="min-h-screen bg-stone-50 dark:bg-gray-900 flex flex-col">
       <header className="bg-white dark:bg-gray-800 border-b border-gray-100 dark:border-gray-700 px-4 py-3">
         <div className="max-w-2xl mx-auto flex items-center justify-between">
-          <Link
-            href=".."
-            className="font-bold text-red-700 dark:text-red-400 text-lg"
-          >
-            LeafReady
+          <Link href="..">
+            <Logo />
           </Link>
           <LanguageSwitcher />
         </div>
