@@ -41,8 +41,14 @@ export async function selectQuestions(
   );
   const seen = (questionsData as Question[]).filter((q) => seenIds.has(q.id));
 
-  const shuffle = <T>(arr: T[]): T[] =>
-    [...arr].sort(() => Math.random() - 0.5);
+  const shuffle = <T>(arr: T[]): T[] => {
+    const result = [...arr];
+    for (let i = result.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [result[i], result[j]] = [result[j], result[i]];
+    }
+    return result;
+  };
 
   const selected = [...shuffle(unseen), ...shuffle(seen)].slice(0, target);
   await markAsSeen(
