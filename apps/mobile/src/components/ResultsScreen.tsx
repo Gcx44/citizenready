@@ -15,20 +15,6 @@ const GUIDE_URL_EN =
 const GUIDE_URL_FR =
   "https://www.canada.ca/content/dam/ircc/migration/ircc/francais/pdf/pub/decouvrir.pdf";
 
-const CATEGORIES: Record<string, string> = {
-  rights_responsibilities: "Rights & Resp.",
-  who_we_are: "Who We Are",
-  history_aboriginal: "Aboriginal History",
-  history_european: "European History",
-  modern_canada: "Modern Canada",
-  government: "Government",
-  federal_elections: "Elections",
-  justice_system: "Justice",
-  symbols: "Symbols",
-  economy: "Economy",
-  regions: "Regions",
-};
-
 interface ResultsScreenProps {
   questions: Question[];
   answers: (number | null)[];
@@ -137,7 +123,7 @@ export default function ResultsScreen({
                 >
                   <View className="flex-row items-start justify-between mb-2">
                     <Text className="text-xs text-gray-400 dark:text-gray-500">
-                      #{idx + 1} · {CATEGORIES[q.category] ?? q.category}
+                      #{idx + 1} · {t(`categories.${q.category}`)}
                     </Text>
                     <View
                       className={`px-2 py-0.5 rounded-full ${
