@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { calculateScore, type Question } from "@/lib/quiz";
+import { calculateScore, type Question } from "@leafready/core";
 import ReportButton from "./ReportButton";
 
 interface ResultsViewProps {

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import { type Question } from "@/lib/quiz";
+import { type Question } from "@leafready/core";
 
 interface ReportButtonProps {
   question: Question;

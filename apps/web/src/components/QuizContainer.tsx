@@ -3,14 +3,19 @@
 import { useState, useCallback, useEffect } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { useRouter } from "next/navigation";
-import { selectQuestions, calculateScore, type Question } from "@/lib/quiz";
-import { saveStats } from "@/lib/stats";
+import {
+  selectQuestions,
+  calculateScore,
+  saveStats,
+  type Question,
+} from "@leafready/core";
+import { localStorageAdapter } from "@/lib/localStorageAdapter";
 import Timer from "./Timer";
 import ProgressBar from "./ProgressBar";
 import ResultsView from "./ResultsView";
 import ReportButton from "./ReportButton";
 
-type QuizStatus = "playing" | "finished";
+type QuizStatus = "loading" | "playing" | "finished";
 
 interface QuizState {
   status: QuizStatus;
@@ -30,18 +35,15 @@ interface QuizContainerProps {
 const DEFAULT_QUIZ_SIZE = 20;
 const QUIZ_DURATION = 45 * 60;
 
-function buildInitialState(size: number): QuizState {
-  const questions = selectQuestions(size);
-  return {
-    status: "playing",
-    questions,
-    currentIndex: 0,
-    answers: new Array(questions.length).fill(null),
-    selectedAnswer: null,
-    timeExpired: false,
-    stoppedEarly: false,
-  };
-}
+const LOADING_STATE: QuizState = {
+  status: "loading",
+  questions: [],
+  currentIndex: 0,
+  answers: [],
+  selectedAnswer: null,
+  timeExpired: false,
+  stoppedEarly: false,
+};
 
 export default function QuizContainer({
   quizSize = DEFAULT_QUIZ_SIZE,
@@ -51,21 +53,37 @@ export default function QuizContainer({
   const locale = useLocale() as "en" | "fr";
   const router = useRouter();
 
-  const [state, setState] = useState<QuizState>(() =>
-    buildInitialState(quizSize),
-  );
+  const [state, setState] = useState<QuizState>(LOADING_STATE);
 
-  const handleRestart = useCallback(() => {
-    setState(buildInitialState(quizSize));
+  const initQuiz = useCallback(async () => {
+    setState(LOADING_STATE);
+    const questions = await selectQuestions(quizSize, localStorageAdapter);
+    setState({
+      status: "playing",
+      questions,
+      currentIndex: 0,
+      answers: new Array(questions.length).fill(null),
+      selectedAnswer: null,
+      timeExpired: false,
+      stoppedEarly: false,
+    });
   }, [quizSize]);
+
+  useEffect(() => {
+    initQuiz();
+  }, [initQuiz]);
 
   // Save stats only for the official quiz (non-practice)
   useEffect(() => {
     if (state.status === "finished" && !isPractice) {
       const score = calculateScore(state.questions, state.answers, locale);
-      saveStats(score, state.questions.length);
+      saveStats(localStorageAdapter, score, state.questions.length);
     }
   }, [state.status]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  const handleRestart = useCallback(() => {
+    initQuiz();
+  }, [initQuiz]);
 
   const handleAnswer = useCallback(
     (choiceIndex: number) => {
@@ -102,6 +120,14 @@ export default function QuizContainer({
   const handleStop = useCallback(() => {
     setState((prev) => ({ ...prev, status: "finished", stoppedEarly: true }));
   }, []);
+
+  if (state.status === "loading") {
+    return (
+      <div className="min-h-screen bg-stone-50 dark:bg-gray-900 flex items-center justify-center">
+        <p className="text-gray-500 dark:text-gray-400">{t("loading")}</p>
+      </div>
+    );
+  }
 
   if (state.status === "finished") {
     return (

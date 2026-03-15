@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="public/favicon.svg" width="80" alt="LeafReady maple leaf logo" />
+<img src="apps/web/public/favicon.svg" width="80" alt="LeafReady maple leaf logo" />
 
 # LeafReady
 
@@ -8,7 +8,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org)
-[![Questions](https://img.shields.io/badge/Questions-385%2B-D42B2B)](src/data/questions.json)
+[![Expo](https://img.shields.io/badge/Expo-SDK%2055-000020?logo=expo)](https://expo.dev)
+[![Questions](https://img.shields.io/badge/Questions-450%2B-D42B2B)](packages/core/src/questions.json)
 [![Bilingual](https://img.shields.io/badge/Bilingual-EN%20%7C%20FR-0052CC)](https://www.canada.ca)
 
 [🇨🇦 English](#) · [🇨🇦 Français](#)
@@ -21,48 +22,86 @@ Based exclusively on the official [**Discover Canada / Découvrir le Canada**](h
 
 ## Features
 
-- **385+ questions** drawn directly from the official study guide
+- **450+ questions** drawn directly from the official study guide
 - **Same format as the real test** — 20 random questions, 45-minute timer, 75% to pass
 - **Immediate feedback** with source reference (section + PDF page link)
 - **Fully bilingual** — English and French, switchable mid-session
-- **No account needed** — statistics stored locally in your browser
-- **Dark mode** — toggle between light and dark themes
-- **Mobile-friendly** — works on any device
+- **No account needed** — statistics stored locally in your browser / on your device
+- **Dark mode** — web toggle or system preference on mobile
+- **Mobile app** — iOS & Android via Expo (React Native)
 
 ## Requirements
 
 - Node.js 18+
-- npm
+- npm 7+ (workspaces support)
+
+## Monorepo structure
+
+```
+citizenship/
+├── apps/
+│   ├── web/        # Next.js 15 web app
+│   └── mobile/     # Expo (React Native) iOS/Android app
+├── packages/
+│   └── core/       # Shared logic: questions, quiz, stats, translations
+└── package.json    # Workspace root
+```
 
 ## Installation
 
 ```bash
 git clone https://github.com/Gcx44/leafready.git
 cd leafready
-npm install
+npm install          # installs all workspaces at once
 ```
 
-> **Note:** The official study guide PDFs are not included in the repository (large binary files).
-> Place them manually in `public/documents/` if you want source links to work locally:
+> **Note:** The official study guide PDFs are not included in the repository.
+> Place them manually in `apps/web/public/documents/` if you want source links to work locally:
 >
-> - `public/documents/discover.pdf`
-> - `public/documents/decouvrir.pdf`
+> - `apps/web/public/documents/discover.pdf`
+> - `apps/web/public/documents/decouvrir.pdf`
 >
 > You can download them from [canada.ca](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada.html).
 
-## Usage
+## Running the web app
+
+All commands run from the **monorepo root**:
 
 ```bash
-# Start development server
-npm run dev
-# → http://localhost:3000
-
-# Build for production
-npm run build
-
-# Run linter
-npm run lint
+npm run dev:web      # Dev server → http://localhost:3000
+npm run build:web    # Production build
+npm run lint:web     # ESLint
 ```
+
+## Running the mobile app (iOS/Android)
+
+### Prerequisites (Mac)
+
+To run on a simulator you need either:
+
+- **iOS simulator** — install [Xcode](https://developer.apple.com/xcode/) from the Mac App Store
+- **Android emulator** — install [Android Studio](https://developer.android.com/studio) and create a virtual device (AVD)
+
+The quickest option without installing any simulator: install **[Expo Go](https://expo.dev/go)** on your physical iPhone or Android device.
+
+### Start the Expo dev server
+
+```bash
+npm run dev:mobile
+```
+
+This runs `expo start` inside `apps/mobile/`. An interactive menu appears in the terminal:
+
+| Key | Action                                                        |
+| --- | ------------------------------------------------------------- |
+| `i` | Open in iOS Simulator (requires Xcode)                        |
+| `a` | Open in Android Emulator (requires Android Studio)            |
+| `s` | Switch to Expo Go mode, then scan the QR code with your phone |
+
+> **Physical device:** make sure your phone and Mac are on the **same Wi-Fi network**, then scan the QR code with:
+>
+> - iPhone → the native **Camera** app
+> - Android → the **Expo Go** app
 
 ## Contributing
 
@@ -70,7 +109,7 @@ Contributions are welcome. The most impactful way to help is to **add or improve
 
 ### Adding questions
 
-All questions live in [`src/data/questions.json`](src/data/questions.json). Each entry must follow this schema:
+All questions live in [`packages/core/src/questions.json`](packages/core/src/questions.json). Each entry must follow this schema:
 
 ```json
 {
@@ -140,29 +179,27 @@ Please **open an issue** before starting significant work.
 
 ## Tech Stack
 
-| Layer     | Choice                                         |
-| --------- | ---------------------------------------------- |
-| Framework | [Next.js 15](https://nextjs.org) (App Router)  |
-| Styling   | [Tailwind CSS v3](https://tailwindcss.com)     |
-| i18n      | [next-intl](https://next-intl-docs.vercel.app) |
-| Data      | Static JSON (`src/data/questions.json`)        |
-| Stats     | `localStorage`                                 |
-| Hosting   | [Netlify](https://netlify.com)                 |
+| Layer     | Web                                            | Mobile                                                           |
+| --------- | ---------------------------------------------- | ---------------------------------------------------------------- |
+| Framework | [Next.js 15](https://nextjs.org) (App Router)  | [Expo](https://expo.dev) + Expo Router                           |
+| Styling   | [Tailwind CSS v3](https://tailwindcss.com)     | [NativeWind v4](https://www.nativewind.dev)                      |
+| i18n      | [next-intl](https://next-intl-docs.vercel.app) | [i18n-js](https://github.com/fnando/i18n-js) + expo-localization |
+| Data      | `@leafready/core` (shared package)             | `@leafready/core` (shared package)                               |
+| Stats     | `localStorage`                                 | `AsyncStorage`                                                   |
+| Hosting   | [Netlify](https://netlify.com)                 | App Store / Play Store (coming soon)                             |
 
 No backend. No database. No cookies. No account required.
 
 ## Deployment
 
-The app is configured for [Netlify](https://netlify.com):
+The web app is configured for [Netlify](https://netlify.com):
 
 ```toml
-# netlify.toml
+# apps/web/netlify.toml
 [build]
-  command = "npm run build"
+  base    = "apps/web"
+  command = "cd ../.. && npm install && npm run build:web"
   publish = ".next"
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
 ```
 
 Language-based redirects are configured automatically (EN/FR based on browser language).

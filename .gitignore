@@ -50,3 +50,7 @@ tsconfig.tsbuildinfo
 
 # Personal notes (not relevant for contributors)
 SEO.md
+
+# Expo / Mobile
+apps/mobile/.expo/
+apps/mobile/dist/
