@@ -10,7 +10,9 @@
     "language": "Langue",
     "practiceTitle": "Practice Mode",
     "practiceDescription": "Train without a timer. Stop at any time to see your results and review your mistakes.",
-    "startPractice": "Start Practice"
+    "startPractice": "Start Practice",
+    "toPass": "to pass",
+    "guideDescription": "Official \"Discover Canada\" guide published by the Government of Canada."
   },
   "stats": {
     "title": "Your Statistics",

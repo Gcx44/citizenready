@@ -86,7 +86,7 @@ export default function HomeScreen() {
             <View className="items-center">
               <Text className="text-2xl font-black text-red-600">75%</Text>
               <Text className="text-xs text-gray-500 dark:text-gray-400 mt-1 text-center">
-                to pass
+                {t("app.toPass")}
               </Text>
             </View>
           </View>
@@ -143,9 +143,7 @@ export default function HomeScreen() {
             {t("app.downloadGuide")}
           </Text>
           <Text className="text-sm text-gray-500 dark:text-gray-400 mb-4">
-            {locale === "en"
-              ? 'Official "Discover Canada" guide published by the Government of Canada.'
-              : "Guide officiel « Découvrir le Canada » publié par le gouvernement du Canada."}
+            {t("app.guideDescription")}
           </Text>
           <View className="flex-row gap-2">
             <TouchableOpacity

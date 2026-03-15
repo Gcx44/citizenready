@@ -10,7 +10,9 @@
     "language": "Language",
     "practiceTitle": "Mode entraînement",
     "practiceDescription": "Entraînez-vous sans chrono. Arrêtez à tout moment pour voir vos résultats et réviser vos erreurs.",
-    "startPractice": "Commencer l'entraînement"
+    "startPractice": "Commencer l'entraînement",
+    "toPass": "pour réussir",
+    "guideDescription": "Guide officiel « Découvrir le Canada » publié par le gouvernement du Canada."
   },
   "stats": {
     "title": "Vos statistiques",
