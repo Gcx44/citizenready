@@ -71,10 +71,11 @@ export default function QuizScreen({
 
   // Save stats when quiz finishes (non-practice only)
   useEffect(() => {
-    if (state.status === "finished" && !isPractice) {
-      const score = calculateScore(state.questions, state.answers, locale);
-      saveStats(asyncStorageAdapter, score, state.questions.length);
-    }
+    if (state.status !== "finished" || isPractice) return;
+    const score = calculateScore(state.questions, state.answers, locale);
+    void (async () => {
+      await saveStats(asyncStorageAdapter, score, state.questions.length);
+    })();
   }, [state.status]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleAnswer = useCallback(
