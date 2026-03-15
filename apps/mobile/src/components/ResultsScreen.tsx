@@ -52,7 +52,7 @@ export default function ResultsScreen({
 }: ResultsScreenProps) {
   const score = calculateScore(questions, answers, locale);
   const total = questions.length;
-  const percentage = Math.round((score / total) * 100);
+  const percentage = total > 0 ? Math.round((score / total) * 100) : 0;
   const passed = percentage >= 75;
 
   return (
