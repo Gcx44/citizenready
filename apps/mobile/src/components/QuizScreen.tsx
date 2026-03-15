@@ -91,6 +91,10 @@ export default function QuizScreen({
     [state.selectedAnswer],
   );
 
+  const handleTimeExpired = useCallback(() => {
+    setState((prev) => ({ ...prev, status: "finished", timeExpired: true }));
+  }, []);
+
   const handleNext = useCallback(() => {
     setState((prev) => {
       const isLast = prev.currentIndex + 1 >= prev.questions.length;
@@ -148,13 +152,7 @@ export default function QuizScreen({
             {!isPractice && (
               <Timer
                 totalSeconds={QUIZ_DURATION}
-                onExpire={() =>
-                  setState((prev) => ({
-                    ...prev,
-                    status: "finished",
-                    timeExpired: true,
-                  }))
-                }
+                onExpire={handleTimeExpired}
               />
             )}
             <TouchableOpacity
