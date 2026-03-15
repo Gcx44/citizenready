@@ -26,7 +26,7 @@ export default function SupportScreen() {
             className="px-3 py-1.5 rounded-lg border border-gray-300 dark:border-gray-600"
           >
             <Text className="text-sm font-semibold text-gray-700 dark:text-gray-300">
-              ← {t("faq.backHome")}
+              ← {t("support.backHome")}
             </Text>
           </TouchableOpacity>
         </View>
