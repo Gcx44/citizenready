@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { View, Text, TouchableOpacity, ScrollView } from "react-native";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  ScrollView,
+  Linking,
+} from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useRouter } from "expo-router";
 import { loadStats, type QuizStats } from "@leafready/core";
@@ -8,6 +14,11 @@ import { t, getLocale, setLocale, type Locale } from "../lib/i18n";
 import Logo from "./Logo";
 
 const PRACTICE_SIZES = [40, 60, 80, 100];
+
+const GUIDE_URL_EN =
+  "https://www.canada.ca/content/dam/ircc/migration/ircc/english/pdf/pub/discover.pdf";
+const GUIDE_URL_FR =
+  "https://www.canada.ca/content/dam/ircc/migration/ircc/francais/pdf/pub/decouvrir.pdf";
 
 export default function HomeScreen() {
   const router = useRouter();
@@ -36,13 +47,15 @@ export default function HomeScreen() {
 
   return (
     <SafeAreaView className="flex-1 bg-stone-50 dark:bg-gray-900">
-      <ScrollView contentContainerClassName="px-4 py-6">
-        {/* Header */}
-        <View className="flex-row items-center justify-between mb-8">
-          <Logo size={28} />
+      <ScrollView contentContainerClassName="px-4 pt-4 pb-6 max-w-lg w-full self-center">
+        {/* Header — logo centré, bouton langue à droite en absolu */}
+        <View className="items-center mb-2 relative">
+          <View style={{ marginTop: 28 }}>
+            <Logo size={44} />
+          </View>
           <TouchableOpacity
             onPress={toggleLocale}
-            className="px-3 py-1.5 rounded-lg border border-gray-300 dark:border-gray-600"
+            className="absolute right-0 top-0 px-3 py-1.5 rounded-lg border border-gray-300 dark:border-gray-600"
           >
             <Text className="text-sm font-semibold text-gray-700 dark:text-gray-300">
               {locale === "en" ? "FR" : "EN"}
@@ -50,36 +63,29 @@ export default function HomeScreen() {
           </TouchableOpacity>
         </View>
 
-        {/* Hero */}
-        <View className="mb-8">
-          <Text className="text-3xl font-black text-gray-900 dark:text-white mb-2">
-            {t("app.title")}
-          </Text>
-          <Text className="text-base text-gray-600 dark:text-gray-400 leading-relaxed">
-            {t("app.subtitle")}
-          </Text>
-        </View>
+        {/* Description */}
+        <Text className="text-sm text-center text-gray-500 dark:text-gray-400 leading-relaxed mb-6 px-2">
+          {t("app.description")}
+        </Text>
 
         {/* Quiz info card */}
         <View className="bg-white dark:bg-gray-800 rounded-2xl p-5 mb-4 shadow-sm border border-gray-100 dark:border-gray-700">
-          <View className="flex-row gap-6 mb-5">
+          <View className="flex-row justify-around mb-5">
             <View className="items-center">
               <Text className="text-2xl font-black text-red-600">20</Text>
-              <Text className="text-xs text-gray-500 dark:text-gray-400 mt-0.5">
+              <Text className="text-xs text-gray-500 dark:text-gray-400 mt-1 text-center">
                 questions
               </Text>
             </View>
-            <View className="w-px bg-gray-200 dark:bg-gray-700" />
             <View className="items-center">
               <Text className="text-2xl font-black text-red-600">45</Text>
-              <Text className="text-xs text-gray-500 dark:text-gray-400 mt-0.5">
+              <Text className="text-xs text-gray-500 dark:text-gray-400 mt-1 text-center">
                 min
               </Text>
             </View>
-            <View className="w-px bg-gray-200 dark:bg-gray-700" />
             <View className="items-center">
               <Text className="text-2xl font-black text-red-600">75%</Text>
-              <Text className="text-xs text-gray-500 dark:text-gray-400 mt-0.5">
+              <Text className="text-xs text-gray-500 dark:text-gray-400 mt-1 text-center">
                 to pass
               </Text>
             </View>
@@ -96,7 +102,7 @@ export default function HomeScreen() {
         </View>
 
         {/* Practice mode */}
-        <View className="bg-white dark:bg-gray-800 rounded-2xl p-5 mb-6 shadow-sm border border-gray-100 dark:border-gray-700">
+        <View className="bg-white dark:bg-gray-800 rounded-2xl p-5 mb-4 shadow-sm border border-gray-100 dark:border-gray-700">
           <Text className="text-base font-bold text-gray-900 dark:text-white mb-1">
             {t("app.practiceTitle")}
           </Text>
@@ -121,8 +127,9 @@ export default function HomeScreen() {
                   onPress={() => startPractice(size)}
                   className="flex-1 border border-gray-300 dark:border-gray-600 rounded-xl py-3 items-center"
                 >
-                  <Text className="text-sm font-semibold text-gray-700 dark:text-gray-300">
-                    {size} Q
+                  <Text className="text-sm font-bold text-red-600">{size}</Text>
+                  <Text className="text-xs text-gray-500 dark:text-gray-400 mt-0.5">
+                    questions
                   </Text>
                 </TouchableOpacity>
               ))}
@@ -130,9 +137,39 @@ export default function HomeScreen() {
           )}
         </View>
 
+        {/* Official guide download */}
+        <View className="bg-white dark:bg-gray-800 rounded-2xl p-5 mb-4 shadow-sm border border-gray-100 dark:border-gray-700">
+          <Text className="text-base font-bold text-gray-900 dark:text-white mb-1">
+            {t("app.downloadGuide")}
+          </Text>
+          <Text className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+            {locale === "en"
+              ? 'Official "Discover Canada" guide published by the Government of Canada.'
+              : "Guide officiel « Découvrir le Canada » publié par le gouvernement du Canada."}
+          </Text>
+          <View className="flex-row gap-2">
+            <TouchableOpacity
+              onPress={() => Linking.openURL(GUIDE_URL_EN)}
+              className="flex-1 border border-gray-300 dark:border-gray-600 rounded-xl py-3 items-center"
+            >
+              <Text className="text-sm font-semibold text-gray-700 dark:text-gray-300">
+                {t("app.studyGuideEn")}
+              </Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              onPress={() => Linking.openURL(GUIDE_URL_FR)}
+              className="flex-1 border border-gray-300 dark:border-gray-600 rounded-xl py-3 items-center"
+            >
+              <Text className="text-sm font-semibold text-gray-700 dark:text-gray-300">
+                {t("app.studyGuideFr")}
+              </Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+
         {/* Stats */}
         {stats && stats.totalQuizzes > 0 && (
-          <View className="bg-white dark:bg-gray-800 rounded-2xl p-5 shadow-sm border border-gray-100 dark:border-gray-700">
+          <View className="bg-white dark:bg-gray-800 rounded-2xl p-5 mb-4 shadow-sm border border-gray-100 dark:border-gray-700">
             <Text className="text-sm font-bold text-gray-700 dark:text-gray-300 mb-4">
               {t("stats.title")}
             </Text>
@@ -164,6 +201,31 @@ export default function HomeScreen() {
             </View>
           </View>
         )}
+
+        {/* Footer links */}
+        <View className="flex-row justify-center gap-6 py-2">
+          <TouchableOpacity onPress={() => router.push("/faq")}>
+            <Text className="text-sm text-gray-400 dark:text-gray-500">
+              FAQ
+            </Text>
+          </TouchableOpacity>
+          <Text className="text-gray-300 dark:text-gray-600">·</Text>
+          <TouchableOpacity onPress={() => router.push("/support")}>
+            <Text className="text-sm text-gray-400 dark:text-gray-500">
+              {t("support.title")}
+            </Text>
+          </TouchableOpacity>
+          <Text className="text-gray-300 dark:text-gray-600">·</Text>
+          <TouchableOpacity
+            onPress={() =>
+              Linking.openURL("https://github.com/Gcx44/leafready")
+            }
+          >
+            <Text className="text-sm text-gray-400 dark:text-gray-500">
+              GitHub
+            </Text>
+          </TouchableOpacity>
+        </View>
       </ScrollView>
     </SafeAreaView>
   );

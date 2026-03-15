@@ -1,8 +1,19 @@
 import React from "react";
-import { View, Text, TouchableOpacity, ScrollView } from "react-native";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  ScrollView,
+  Linking,
+} from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { calculateScore, type Question } from "@leafready/core";
 import { t } from "../lib/i18n";
+
+const GUIDE_URL_EN =
+  "https://www.canada.ca/content/dam/ircc/migration/ircc/english/pdf/pub/discover.pdf";
+const GUIDE_URL_FR =
+  "https://www.canada.ca/content/dam/ircc/migration/ircc/francais/pdf/pub/decouvrir.pdf";
 
 const CATEGORIES: Record<string, string> = {
   rights_responsibilities: "Rights & Resp.",
@@ -194,10 +205,18 @@ export default function ResultsScreen({
                     })}
                   </View>
 
-                  <Text className="text-xs text-gray-400 dark:text-gray-500 mt-3">
-                    {t("results.source")}: {q.source[`section_${locale}`]} (p.{" "}
-                    {q.source[`page_${locale}`]})
-                  </Text>
+                  <TouchableOpacity
+                    onPress={() => {
+                      const url = locale === "fr" ? GUIDE_URL_FR : GUIDE_URL_EN;
+                      Linking.openURL(url);
+                    }}
+                    className="mt-3"
+                  >
+                    <Text className="text-xs text-blue-500 dark:text-blue-400 underline">
+                      {t("results.source")}: {q.source[`section_${locale}`]} (p.{" "}
+                      {q.source[`page_${locale}`]}) — {t("results.viewPdf")}
+                    </Text>
+                  </TouchableOpacity>
                 </View>
               );
             })}

@@ -62,7 +62,7 @@ export default function Logo({ size = 22, hideText = false }: LogoProps) {
         />
       </Svg>
       {!hideText && (
-        <Text className="font-bold text-red-700 dark:text-red-400 text-lg">
+        <Text className="font-bold text-red-700 dark:text-red-400 text-2xl">
           LeafReady
         </Text>
       )}
