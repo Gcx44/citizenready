@@ -7,10 +7,8 @@ export default function Quiz() {
     practice?: string;
   }>();
 
-  return (
-    <QuizScreen
-      quizSize={size ? parseInt(size, 10) : 20}
-      isPractice={practice === "true"}
-    />
-  );
+  const n = parseInt(size ?? "", 10);
+  const quizSize = !isNaN(n) && n > 0 ? n : 20;
+
+  return <QuizScreen quizSize={quizSize} isPractice={practice === "true"} />;
 }
