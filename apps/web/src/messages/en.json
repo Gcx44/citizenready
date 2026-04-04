@@ -108,6 +108,21 @@
     "a8": "Each question has a \"Report\" button at the bottom. Use it to flag wrong answers, unclear phrasing, or translation errors. Reports are sent directly to the development team and reviewed promptly.",
     "backHome": "Back to Home"
   },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: April 2026",
+    "section1Title": "Data We Collect",
+    "section1Content": "LeafReady does not collect any personal information. The app does not require an account, does not track your identity, and does not transmit any data to external servers.",
+    "section2Title": "Data Stored on Your Device",
+    "section2Content": "Quiz statistics (scores, number of questions answered, streaks) are stored locally on your device. This data never leaves your device and is not accessible to us.",
+    "section3Title": "Third-Party Services",
+    "section3Content": "LeafReady does not use any third-party analytics, advertising, or tracking services.",
+    "section4Title": "Children's Privacy",
+    "section4Content": "LeafReady does not knowingly collect any data from users of any age, including children under 13.",
+    "contactTitle": "Contact",
+    "contactContent": "Questions about this policy? Contact us at",
+    "backHome": "Back to Home"
+  },
   "categories": {
     "rights_responsibilities": "Rights & Responsibilities",
     "who_we_are": "Who We Are",

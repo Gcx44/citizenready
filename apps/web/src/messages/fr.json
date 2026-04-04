@@ -108,6 +108,21 @@
     "a8": "Chaque question dispose d'un bouton « Signaler » en bas. Utilisez-le pour signaler une mauvaise réponse, un énoncé peu clair ou une erreur de traduction. Les signalements sont envoyés directement à l'équipe de développement et traités rapidement.",
     "backHome": "Retour à l'accueil"
   },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : avril 2026",
+    "section1Title": "Données collectées",
+    "section1Content": "LeafReady ne collecte aucune information personnelle. L'application ne nécessite pas de compte, ne suit pas votre identité et ne transmet aucune donnée à des serveurs externes.",
+    "section2Title": "Données stockées sur votre appareil",
+    "section2Content": "Les statistiques de quiz (scores, nombre de questions répondues, séries) sont stockées localement sur votre appareil. Ces données ne quittent jamais votre appareil et ne nous sont pas accessibles.",
+    "section3Title": "Services tiers",
+    "section3Content": "LeafReady n'utilise aucun service tiers d'analyse, de publicité ou de suivi.",
+    "section4Title": "Confidentialité des enfants",
+    "section4Content": "LeafReady ne collecte sciemment aucune donnée auprès d'utilisateurs de tout âge, y compris les enfants de moins de 13 ans.",
+    "contactTitle": "Contact",
+    "contactContent": "Des questions sur cette politique ? Contactez-nous à",
+    "backHome": "Retour à l'accueil"
+  },
   "categories": {
     "rights_responsibilities": "Droits et responsabilités",
     "who_we_are": "Qui nous sommes",
