@@ -13,7 +13,8 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "ca.leafready.app"
+      "bundleIdentifier": "ca.leafready.app",
+      "buildNumber": "1"
     },
     "android": {
       "adaptiveIcon": {
@@ -23,7 +24,8 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "ca.leafready.app"
+      "package": "ca.leafready.app",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
