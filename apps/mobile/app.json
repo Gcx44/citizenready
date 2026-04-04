@@ -2,7 +2,7 @@
   "expo": {
     "name": "LeafReady",
     "slug": "leafready",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
@@ -14,7 +14,10 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "ca.leafready.app",
-      "buildNumber": "1"
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -31,6 +34,13 @@
       "favicon": "./assets/favicon.png"
     },
     "scheme": "leafready",
-    "plugins": ["expo-router", "expo-localization"]
+    "plugins": ["expo-router", "expo-localization"],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "9156aabd-01d6-40bd-8487-aba0a5ddc2e8"
+      }
+    },
+    "owner": "mycssrv"
   }
 }
