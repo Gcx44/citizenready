@@ -139,7 +139,36 @@ export default function HomePage() {
         </div>
       </main>
 
-      <footer className="text-center py-6 px-4 space-y-3">
+      <footer className="text-center pt-2 pb-6 px-4 space-y-3">
+        {/* Mobile badges */}
+        <div className="flex justify-center items-end gap-4 mb-3">
+          <a
+            href="https://apps.apple.com/ca/app/leafready/id6761668685"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/badges/app-store.svg"
+              alt="Download on the App Store"
+              className="h-10 w-auto"
+            />
+          </a>
+          <div className="flex flex-col items-center gap-0.5">
+            <div className="opacity-40 cursor-not-allowed">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/badges/google-play.png"
+                alt="Get it on Google Play"
+                className="h-10 w-auto"
+              />
+            </div>
+            <span className="text-xs text-gray-400 dark:text-gray-500">
+              {t("mobileComingSoon")}
+            </span>
+          </div>
+        </div>
+
         <Link
           href="support"
           className="inline-flex items-center gap-2 px-5 py-2.5 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-700 text-amber-700 dark:text-amber-400 rounded-xl text-sm font-semibold hover:bg-amber-100 dark:hover:bg-amber-900/40 transition-colors"
